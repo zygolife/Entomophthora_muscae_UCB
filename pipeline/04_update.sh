@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -p batch --time 2-0:00:00 --ntasks 16 --nodes 1 --mem 24G --out logs/update.%a.log
+#SBATCH -p batch --time 5-0:00:00 --ntasks 16 --nodes 1 --mem 24G --out logs/update.%a.log
 
 module unload perl
 module unload miniconda2
@@ -7,7 +7,7 @@ module unload miniconda3
 module load anaconda3
 module unload perl
 module unload python
-module load funannotate/1.8.2
+module load funannotate
 
 #PASAHOMEPATH=$(dirname `which Launch_PASA_pipeline.pl`)
 #TRINITYHOMEPATH=$(dirname `which Trinity`)
@@ -21,7 +21,7 @@ fi
 
 INDIR=genomes
 OUTDIR=annotate
-SAMPFILE=strains.csv
+SAMPFILE=samples.csv
 
 N=${SLURM_ARRAY_TASK_ID}
 
@@ -42,10 +42,13 @@ if [ $N -gt $MAX ]; then
 fi
 export FUNANNOTATE_DB=/bigdata/stajichlab/shared/lib/funannotate_db
 export PASACONF=$HOME/pasa.config.txt
-SBT=$(realpath lib/authors.sbt) # this can be changed
+SBT=lib/authors_reference.sbt
+#$(realpath lib/authors.sbt) # this can be changed
+#
 IFS=,
-tail -n +2 $SAMPFILE | sed -n ${N}p | while read SPECIES STRAIN PHYLUM BIOSAMPLE BIOPROJECT LOCUSTAG
+tail -n +2 $SAMPFILE | sed -n ${N}p | while read SPECIES STRAIN VERSION PHYLUM BIOSAMPLE BIOPROJECT LOCUSTAG
 do
   #  defaults to using sqlite - if you used mysql in the 02_train_RNASeq.sh step then you would add '--pasa_db mysql' to the options
-  funannotate update --cpus $CPU -i $OUTDIR/$BASE --out $OUTDIR/$BASE --sbt $SBT --memory $MEM
+  BASE=$(echo -n ${SPECIES}_${STRAIN}.${VERSION} | perl -p -e 's/\s+/_/g')
+  funannotate update --cpus $CPU -i $OUTDIR/$BASE --out $OUTDIR/$BASE --sbt $SBT --memory $MEM --pasa_db mysql
 done

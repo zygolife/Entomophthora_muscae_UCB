@@ -1,15 +1,18 @@
 #!/bin/bash
-#SBATCH -p batch --time 2-0:00:00 --ntasks 8 --nodes 1 --mem 24G --out logs/mask.%a.log
+#SBATCH -p intel,batch --time 2-0:00:00 --ntasks 8 --nodes 1 --mem 24G --out logs/mask.%a.log
 
 CPU=1
 if [ $SLURM_CPUS_ON_NODE ]; then
     CPU=$SLURM_CPUS_ON_NODE
 fi
 
-INDIR=genomes
-OUTDIR=genomes
+module load workspace/scratch
 
+INDIR=$(realpath genomes)
+OUTDIR=$(realpath genomes)
+LOGS=$(realpath logs)
 mkdir -p repeat_library
+RL=$(realpath repeat_library)
 
 SAMPFILE=samples.csv
 N=${SLURM_ARRAY_TASK_ID}
@@ -29,9 +32,9 @@ if [ $N -gt $(expr $MAX) ]; then
 fi
 
 IFS=,
-tail -n +2 $SAMPFILE | sed -n ${N}p | while read SPECIES STRAIN PHYLUM BIOPROJECT BIOSAMPLE LOCUS
+tail -n +2 $SAMPFILE | sed -n ${N}p | while read SPECIES STRAIN VERSION PHYLUM BIOPROJECT BIOSAMPLE LOCUS
 do
-  name=$(echo -n ${SPECIES}_${STRAIN} | perl -p -e 's/\s+/_/g')
+  name=$(echo -n ${SPECIES}_${STRAIN}.${VERSION} | perl -p -e 's/\s+/_/g')
   if [ ! -f $INDIR/${name}.sorted.fasta ]; then
      echo "Cannot find $name in $INDIR - may not have been run yet"
      exit
@@ -39,27 +42,27 @@ do
   echo "$name"
   
   if [ ! -f $OUTDIR/${name}.masked.fasta ]; then
-     module unload perl
-     module unload python
-     module unload miniconda2
-     module unload anaconda3
-     module load funannotate/1.8.2
+     module unload perl python
+     module unload miniconda2 anaconda3 miniconda3
+     module load funannotate
      export AUGUSTUS_CONFIG_PATH=$(realpath lib/augustus/3.3/config)
-     if [ -f repeat_library/${name}.repeatmodeler-library.fasta ]; then
-    	  LIBRARY=$(realpath repeat_library/${name}.repeatmodeler-library.fasta)
+     if [ -f $RL/${name}.repeatmodeler-library.fasta ]; then
+    	  LIBRARY=$RL/${name}.repeatmodeler-library.fasta
      fi
-     echo "LIBRARY is $LIBRARY"
-     mkdir $name.mask.$$
-     pushd $name.mask.$$
+     #pushd $SCRATCH
+
+
      if [ ! -z $LIBRARY ]; then
-    	 funannotate mask --cpus $CPU -i ../$INDIR/${name}.sorted.fasta -o ../$OUTDIR/${name}.masked.fasta -l $LIBRARY --method repeatmodeler
+     	 echo "LIBRARY is $LIBRARY"
+    	 funannotate mask --cpus $CPU -i $INDIR/${name}.sorted.fasta -o $OUTDIR/${name}.masked.fasta -l $LIBRARY --method repeatmodeler
      else
-       funannotate mask --cpus $CPU -i ../$INDIR/${name}.sorted.fasta -o ../$OUTDIR/${name}.masked.fasta --method repeatmodeler
-       mv repeatmodeler-library.*.fasta ../repeat_library/${name}.repeatmodeler-library.fasta
-       mv funannotate-mask.log ../logs/masklog_long.$name.log
+       funannotate mask --cpus $CPU -i $INDIR/${name}.sorted.fasta -o $OUTDIR/${name}.masked.fasta --method repeatmodeler
+	echo "finished running masking"
+       mv repeatmodeler-library.*.fasta $RL/${name}.repeatmodeler-library.fasta
+       mv funannotate-mask.log $LOGS/masklog_long.$name.log
+       ls -l
      fi
      popd
-     rmdir $name.mask.$$
   else
      echo "Skipping ${name} as masked already"
   fi

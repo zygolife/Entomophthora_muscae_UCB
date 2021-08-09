@@ -3,9 +3,9 @@
 
 module unload miniconda2
 module unload miniconda3
-module load anaconda3
-module load antismash/5.1.2
-module load antismash/5.1.2
+module unload anaconda3
+module load antismash/5.2.0
+module load antismash/5.2.0
 which perl
 which antismash
 hostname
@@ -30,12 +30,12 @@ if [ $N -gt $MAX ]; then
   exit
 fi
 
-INPUTFOLDER=predict_results
+INPUTFOLDER=update_results
 
 IFS=,
-tail -n +2 $SAMPFILE | sed -n ${N}p | while read SPECIES STRAIN PHYLUM BIOSAMPLE BIOPROJECT LOCUSTAG
+tail -n +2 $SAMPFILE | sed -n ${N}p | while read SPECIES STRAIN VERSION PHYLUM BIOSAMPLE BIOPROJECT LOCUSTAG
 do
-  BASE=$(echo -n "$SPECIES $STRAIN" | perl -p -e 's/\s+/_/g')
+  BASE=$(echo -n ${SPECIES}_${STRAIN}.${VERSION} | perl -p -e 's/\s+/_/g')
   name=$BASE
   STRAIN_NOSPACE=$(echo -n "$STRAIN" | perl -p -e 's/\s+/_/g')
   echo "$BASE"

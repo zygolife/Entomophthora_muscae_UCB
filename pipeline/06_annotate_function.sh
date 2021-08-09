@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 #SBATCH --nodes=1
-#SBATCH --ntasks=16 --mem 16gb
+#SBATCH --ntasks=16 --mem 64gb
 #SBATCH --output=logs/annotfunc.%a.log
 #SBATCH --time=2-0:00:00
 #SBATCH -p intel -J annotfunc
@@ -9,7 +9,7 @@ module unload miniconda2
 module unload miniconda3
 module unload perl
 module unload python
-module load funannotate/1.8.2
+module load funannotate
 module load phobius
 
 export FUNANNOTATE_DB=/bigdata/stajichlab/shared/lib/funannotate_db
@@ -39,9 +39,9 @@ if [ $N -gt $MAX ]; then
   exit
 fi
 IFS=,
-tail -n +2 $SAMPFILE | sed -n ${N}p | while read SPECIES STRAIN PHYLUM BIOSAMPLE BIOPROJECT LOCUSTAG
+tail -n +2 $SAMPFILE | sed -n ${N}p | while read SPECIES STRAIN VERSION PHYLUM BIOSAMPLE BIOPROJECT LOCUSTAG
 do
-  BASE=$(echo -n "$SPECIES $STRAIN" | perl -p -e 's/\s+/_/g')
+  BASE=$(echo -n ${SPECIES}_${STRAIN}.${VERSION} | perl -p -e 's/\s+/_/g')
   STRAIN_NOSPACE=$(echo -n "$STRAIN" | perl -p -e 's/\s+/_/g')
   echo "$BASE"
   MASKED=$(realpath $INDIR/$BASE.masked.fasta)

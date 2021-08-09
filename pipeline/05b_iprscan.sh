@@ -4,10 +4,10 @@
 module unload miniconda2
 module unload miniconda3
 module load anaconda3
-module load funannotate/1.8.2
+module load funannotate
 module unload perl
 module unload python
-module load iprscan
+module load iprscan/ 5.51-85.0
 CPU=1
 if [ ! -z $SLURM_CPUS_ON_NODE ]; then
   CPU=$SLURM_CPUS_ON_NODE
@@ -29,9 +29,9 @@ if [ $N -gt $MAX ]; then
   exit
 fi
 IFS=,
-tail -n +2 $SAMPFILE | sed -n ${N}p | while read SPECIES STRAIN PHYLUM BIOSAMPLE BIOPROJECT LOCUSTAG
+tail -n +2 $SAMPFILE | sed -n ${N}p | while read SPECIES STRAIN VERSION PHYLUM BIOSAMPLE BIOPROJECT LOCUSTAG
 do
-  BASE=$(echo -n "$SPECIES $STRAIN" | perl -p -e 's/\s+/_/g')
+  BASE=$(echo -n ${SPECIES}_${STRAIN}.${VERSION} | perl -p -e 's/\s+/_/g')
   name=$BASE
   echo "$BASE"
   MASKED=$(realpath $INDIR/$BASE.masked.fasta)

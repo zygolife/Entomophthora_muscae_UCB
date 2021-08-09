@@ -1,1 +1,8 @@
-SPECIES,STRAIN,PHYLUM,BIOPROJECT,BIOSAMPLE,LOCUS
+SPECIES,STRAIN,VERSION,PHYLUM,BIOPROJECT,BIOSAMPLE,LOCUS
+Entomophthora muscae,UCB,Nanopore_v1,Zoopagomycota,PRJNA479887,SAMN09621101,DSO57v2
+Entomophthora muscae,UCB,Nanopore10X_v2,Zoopagomycota,PRJNA479887,SAMN09621101,DSO57v2
+Entomophaga maimaiga,var ARSEF 7190,v1,Zoopagomycota,NA,NA,EMAIM
+Zoophthora radicans,ATCC 208865,v1,Zoopagomycota,NA,NA,ZOORAD
+Massospora_cicadina,6FC,v_medaka,Zoopagomycota,NA,NA,MCIC6FC
+Massospora_cicadina,RS,v_flye,Zoopagomycota,NA,NA,MCICRS
+Massospora_cicadina,UMICH,v1,Zoopagomycota,NA,NA,MCICUMICH
