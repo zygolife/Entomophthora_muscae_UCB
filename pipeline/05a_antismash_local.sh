@@ -4,8 +4,8 @@
 module unload miniconda2
 module unload miniconda3
 module unload anaconda3
-module load antismash/5.2.0
-module load antismash/5.2.0
+module load antismash/6.0.0
+module load antismash/6.0.0
 which perl
 which antismash
 hostname
@@ -47,11 +47,20 @@ do
   fi
   echo "processing $OUTDIR/$name"
   if [[ ! -d $OUTDIR/$name/antismash_local && ! -s $OUTDIR/$name/antismash_local/index.html ]]; then
+	  GBK=$(ls $OUTDIR/$name/$INPUTFOLDER/*.gbk)
+	  if [ -z $GBK ]; then
+		GBK=$(ls $OUTDIR/$name/predict_results/*.gbk)
+	  fi
+	  if [ -z $GBK ]; then
+		  echo "no genbank file for $OUTDIR/$name/predict_results or $OUTDIR/$name/$INPUTFOLDER"
+		  exit
+	  fi
+
     #	antismash --taxon fungi --output-dir $OUTDIR/$name/antismash_local  --genefinding-tool none \
       #    --asf --fullhmmer --cassis --clusterhmmer --asf --cb-general --pfam2go --cb-subclusters --cb-knownclusters -c $CPU \
       #    $OUTDIR/$name/$INPUTFOLDER/*.gbk
     time antismash --taxon fungi --output-dir $OUTDIR/$name/antismash_local \
-      --genefinding-tool none --fullhmmer --clusterhmmer --cb-general \
-      --pfam2go -c $CPU $OUTDIR/$name/$INPUTFOLDER/*.gbk
+      --genefinding-tool none --fullhmmer --clusterhmmer --cb-general  --cassis --asf --cb-subclusters --cb-knownclusters \
+      --pfam2go -c $CPU $GBK
   fi
 done

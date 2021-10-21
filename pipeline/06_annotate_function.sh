@@ -61,7 +61,7 @@ do
     if [ ! -f $ANTISMASH ]; then
       echo "CANNOT FIND $ANTISMASH in $OUTDIR/$name/antismash_local"
     else
-      rsync -a $ANTISMASH $ANTISMASHRESULT
+      rsync -av $ANTISMASH $ANTISMASHRESULT
     fi
   fi
   # need to add detect for antismash and then add that

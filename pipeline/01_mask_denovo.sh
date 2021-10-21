@@ -49,8 +49,8 @@ do
      if [ -f $RL/${name}.repeatmodeler-library.fasta ]; then
     	  LIBRARY=$RL/${name}.repeatmodeler-library.fasta
      fi
-     #pushd $SCRATCH
 
+     #pushd $SCRATCH
 
      if [ ! -z $LIBRARY ]; then
      	 echo "LIBRARY is $LIBRARY"
@@ -62,7 +62,6 @@ do
        mv funannotate-mask.log $LOGS/masklog_long.$name.log
        ls -l
      fi
-     popd
   else
      echo "Skipping ${name} as masked already"
   fi
