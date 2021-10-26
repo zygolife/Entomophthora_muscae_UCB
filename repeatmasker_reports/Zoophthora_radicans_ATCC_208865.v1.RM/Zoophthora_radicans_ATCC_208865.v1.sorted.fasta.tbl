@@ -1,0 +1,60 @@
+==================================================
+file name: Zoophthora_radicans_ATCC_208865.v1.sorted.fasta
+sequences:          8662
+total length:  655199646 bp  (629392729 bp excl N/X-runs)
+GC level:         33.18 %
+bases masked:  465431017 bp ( 73.95 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       243114    306898836 bp   48.76 %
+   SINEs:                0            0 bp    0.00 %
+   Penelope              1           73 bp    0.00 %
+   LINEs:             1538      1362037 bp    0.22 %
+    CRE/SLACS            2          118 bp    0.00 %
+     L2/CR1/Rex        210       189832 bp    0.03 %
+     R1/LOA/Jockey       0            0 bp    0.00 %
+     R2/R4/NeSL          0            0 bp    0.00 %
+     RTE/Bov-B           0            0 bp    0.00 %
+     L1/CIN4           375       371133 bp    0.06 %
+   LTR elements:    241576    305536799 bp   48.54 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia          91         6168 bp    0.00 %
+     Gypsy/DIRS1    144428    248718223 bp   39.52 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons      23671     31144198 bp    4.95 %
+   hobo-Activator      174       159525 bp    0.03 %
+   Tc1-IS630-Pogo     1653      1148963 bp    0.18 %
+   En-Spm                0            0 bp    0.00 %
+   MuDR-IS905            0            0 bp    0.00 %
+   PiggyBac            322       301948 bp    0.05 %
+   Tourist/Harbinger    14          945 bp    0.00 %
+   Other (Mirage,        2           78 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles       1081      1404869 bp    0.22 %
+
+Unclassified:       282646    122967966 bp   19.54 %
+
+Total interspersed repeats:   461011000 bp   73.25 %
+
+
+Small RNA:               5          720 bp    0.00 %
+
+Satellites:              3          430 bp    0.00 %
+Simple repeats:      47146      2236328 bp    0.36 %
+Low complexity:      14800       777670 bp    0.12 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+  Runs of >=20 X/Ns in query were excluded in % calcs
+
+
+RepeatMasker version 4.1.1 , sensitive mode
+                                      
+run with rmblastn version 2.9.0+
+The query was compared to classified sequences in ".../Zoophthora_radicans_ATCC_208865.v1.repeatmodeler-library.fasta"
+
