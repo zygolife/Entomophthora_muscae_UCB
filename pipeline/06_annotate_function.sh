@@ -11,6 +11,7 @@ module unload perl
 module unload python
 module load funannotate
 module load phobius
+module laod workspace/scratch
 
 export FUNANNOTATE_DB=/bigdata/stajichlab/shared/lib/funannotate_db
 CPUS=$SLURM_CPUS_ON_NODE
@@ -65,5 +66,5 @@ do
     fi
   fi
   # need to add detect for antismash and then add that
-  funannotate annotate --sbt $TEMPLATE --busco_db $BUSCO -i $OUTDIR/$BASE --species "$SPECIES" --strain "$STRAIN" --cpus $CPUS $MOREFEATURE $EXTRAANNOT
+  funannotate annotate --sbt $TEMPLATE --tmpdir $SCRATCH --busco_db $BUSCO -i $OUTDIR/$BASE --species "$SPECIES" --strain "$STRAIN" --cpus $CPUS $MOREFEATURE $EXTRAANNOT
 done
