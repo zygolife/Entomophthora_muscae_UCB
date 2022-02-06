@@ -7,11 +7,6 @@
 #SBATCH --output=logs/train.%a.log
 #SBATCH --job-name="TrainFun"
 
-# Define program name
-PROGNAME=$(basename $0)
-echo "PROGRAM is $PROGNAME"
-# Load software
-#module load funannotate/development
 module load funannotate
 MEM=256G
 
@@ -47,7 +42,7 @@ do
     echo "SPECIES is $SPECIES"
     SPECIESNOSPACE=$(echo -n "$SPECIES" | perl -p -e 's/\s+/_/g')
     if [[ ! -d $RNAFOLDER/$SPECIESNOSPACE || ! -f $RNAFOLDER/$SPECIESNOSPACE/Forward.fq.gz ]]; then
-	     echo "For training step Need RNASeq files in folder  $RNAFOLDER/$SPECIESNOSPACE as  $RNAFOLDER/$SPECIESNOSPACE/Forward.fq.gz and  $RNASEQ/$SPECIESNOSPACE/Reverse.fq.gz"
+	     echo "For training step Need RNASeq files in folder  $RNAFOLDER/$SPECIESNOSPACE as  $RNAFOLDER/$SPECIESNOSPACE/Forward.fq.gz and  $RNAFOLDER/$SPECIESNOSPACE/Reverse.fq.gz"
 	     exit
     fi
     BASE=$(echo -n ${SPECIES}_${STRAIN}.${VERSION} | perl -p -e 's/\s+/_/g')

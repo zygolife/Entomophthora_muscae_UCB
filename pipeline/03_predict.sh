@@ -1,20 +1,27 @@
 #!/bin/bash
 #SBATCH -p intel,batch --time 3-0:00:00 --ntasks 24 --nodes 1 --mem 96G --out logs/predict.%a.log
 
-module unload miniconda2
-module unload anaconda3
+module unload miniconda2 miniconda3 anaconda3
 module unload perl
 module unload python
 module load funannotate
 module load workspace/scratch
-
+#conda deactivate
+#conda activate funannot_test_p2g
+which funannotate
+#which diamond
+diamond version
 CPU=1
 if [ $SLURM_CPUS_ON_NODE ]; then
     CPU=$SLURM_CPUS_ON_NODE
 fi
+ulimit -Sn
+ulimit -Hn
+ulimit -n 30000
 
 BUSCO=mucoromycota_odb10
 #fungi_odb10 # This could be changed to the core BUSCO set you want to use
+BUSCO=fungi_odb10
 INDIR=$(realpath genomes)
 OUTDIR=$(realpath annotate)
 PREDS=$(realpath prediction_support)
@@ -42,6 +49,8 @@ export AUGUSTUS_CONFIG_PATH=$(realpath lib/augustus/3.3/config)
 export FUNANNOTATE_DB=/bigdata/stajichlab/shared/lib/funannotate_db
 SEED_SPECIES=entomophthora_muscae_ucb
 
+#SEED_SPECIES=massospora_cicadina_rs
+
 IFS=,
 tail -n +2 $SAMPFILE | sed -n ${N}p | while read SPECIES STRAIN VERSION PHYLUM BIOSAMPLE BIOPROJECT LOCUSTAG
 do
@@ -59,20 +68,16 @@ do
       echo "Cannot find $BASE.masked.fasta in $INDIR - may not have been run yet"
       exit
     fi
-    
-    pushd $SCRATCH
+
     if [[ -f $PREDS/$BASE.genemark.gtf ]]; then
 	funannotate predict --cpus $CPU --keep_no_stops --SeqCenter $SEQCENTER --busco_db $BUSCO --optimize_augustus \
         --strain $STRAIN --min_training_models 100 --AUGUSTUS_CONFIG_PATH $AUGUSTUS_CONFIG_PATH \
         -i $MASKED --name $LOCUSTAG --protein_evidence $INFORMANT \
-        -s "$SPECIES"  -o $OUTDIR/$BASE --busco_seed_species $SEED_SPECIES
-    #--busco_seed_species $SEED_SPECIES --genemark_gtf $PREDS/$BASE.genemark.gtf
+        -s "$SPECIES"  -o $OUTDIR/$BASE --busco_seed_species $SEED_SPECIES --tmpdir $SCRATCH --genemark_gtf $PREDS/$BASE.genemark.gtf
     else
 	funannotate predict --cpus $CPU --keep_no_stops --SeqCenter $SEQCENTER --busco_db $BUSCO --optimize_augustus \
 	--strain $STRAIN --min_training_models 100 --AUGUSTUS_CONFIG_PATH $AUGUSTUS_CONFIG_PATH \
 	-i $MASKED --name $LOCUSTAG --protein_evidence $INFORMANT \
-	-s "$SPECIES"  -o $OUTDIR/$BASE --busco_seed_species $SEED_SPECIES
-    #--busco_seed_species $SEED_SPECIES
+	-s "$SPECIES"  -o $OUTDIR/$BASE --busco_seed_species $SEED_SPECIES --tmpdir $SCRATCH
     fi
-    popd
 done

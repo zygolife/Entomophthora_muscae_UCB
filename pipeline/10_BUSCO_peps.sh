@@ -1,5 +1,6 @@
 #!/bin/bash
 #SBATCH --nodes 1 --ntasks 8 --mem 16G -p short --out logs/busco_pep.%a.log -J buscopep
+module load workspace/scratch
 
 # for augustus training
 #export AUGUSTUS_CONFIG_PATH=/bigdata/stajichlab/shared/pkg/augustus/3.3/config
@@ -19,27 +20,26 @@ if [ ! $N ]; then
         exit
     fi
 fi
-if [ -z ${SLURM_ARRAY_JOB_ID} ]; then
-	SLURM_ARRAY_JOB_ID=$$
-fi
 ANNOTFOLDER=annotate
 LINEAGE=fungi_odb10
-OUTFOLDER=BUSCO
-TEMP=/scratch/${SLURM_ARRAY_JOB_ID}_${N}
-mkdir -p $TEMP $BUSCO
+OUTFOLDER=BUSCO_pep
+TEMP=$SCRATCH
+
+mkdir -p $BUSCO
 SAMPLEFILE=samples.csv
 SEED_SPECIES=entomophthora_muscae_ucb
 IFS=,
 tail -n +2 $SAMPLEFILE | sed -n ${N}p | while read SPECIES STRAIN VERSION PHYLUM BIOSAMPLE BIOPROJECT LOCUSTAG
 do
 	BASE=$(echo -n ${SPECIES}_${STRAIN}.${VERSION} | perl -p -e 's/\s+/_/g')
+	SPECIESSTRAIN=$(echo -n ${SPECIES}_${STRAIN} | perl -p -e 's/\s+/_/g')
 	for type in predict update
 	do
-	    INPEP=$ANNOTFOLDER/${BASE}/${type}_results/${BASE}.proteins.fa
+	    INPEP=$ANNOTFOLDER/${BASE}/${type}_results/${SPECIESSTRAIN}.proteins.fa
 	    if [ ! -s $INPEP ]; then
 		echo "No Proteins from prediction run yet"
 		echo "missing $INPEP"
-		break
+		continue
 	    fi
 
 	    if [ -d "$OUTFOLDER/${BASE}_${type}_proteins" ];  then
@@ -50,9 +50,5 @@ do
 		busco -m prot -l $LINEAGE -c $CPU -o ${BASE}_${type}_proteins --out_path ${OUTFOLDER} --offline  \
 		    --in $INPEP --download_path $BUSCO_LINEAGES
 	    fi
-	    #    run_BUSCO.py -i $GENOMEFILE -l $LINEAGE -o $NAME -m geno --cpu $CPU --tmp $TEMP --long -sp $SEED_SPECIES
-	    #    popd
-	    #fi
 	done
 done
-rm -rf $TEMP

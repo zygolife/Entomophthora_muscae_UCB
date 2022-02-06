@@ -66,5 +66,5 @@ do
     fi
   fi
   # need to add detect for antismash and then add that
-  funannotate annotate --sbt $TEMPLATE --tmpdir $SCRATCH --busco_db $BUSCO -i $OUTDIR/$BASE --species "$SPECIES" --strain "$STRAIN" --cpus $CPUS $MOREFEATURE $EXTRAANNOT
+  funannotate annotate --sbt $TEMPLATE --tmpdir $SCRATCH --busco_db $BUSCO -i $OUTDIR/$BASE --species "$SPECIES" --strain "$STRAIN" --cpus $CPUS --rename $LOCUSTAG $MOREFEATURE $EXTRAANNOT
 done
