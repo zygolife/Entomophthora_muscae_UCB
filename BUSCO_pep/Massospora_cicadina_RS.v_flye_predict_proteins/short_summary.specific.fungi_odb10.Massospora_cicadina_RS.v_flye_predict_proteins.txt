@@ -1,0 +1,17 @@
+# BUSCO version is: 5.1.2 
+# The lineage dataset is: fungi_odb10 (Creation date: 2020-09-10, number of genomes: 549, number of BUSCOs: 758)
+# Summarized benchmarking in BUSCO notation for file /bigdata/stajichlab/shared/projects/ZyGoLife/Entomophthora/E_muscae/Entomophthora_muscae_UCB/annotate/Massospora_cicadina_RS.v_flye/predict_results/Massospora_cicadina_RS.proteins.fa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:43.0%[S:34.8%,D:8.2%],F:13.3%,M:43.7%,n:758	   
+	326	Complete BUSCOs (C)			   
+	264	Complete and single-copy BUSCOs (S)	   
+	62	Complete and duplicated BUSCOs (D)	   
+	101	Fragmented BUSCOs (F)			   
+	331	Missing BUSCOs (M)			   
+	758	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1

@@ -1,0 +1,883 @@
+# BUSCO version is: 5.1.2 
+# The lineage dataset is: fungi_odb10 (Creation date: 2020-09-10, number of genomes: 549, number of BUSCOs: 758)
+# Busco id	Status	Sequence	Score	Length	OrthoDB url	Description
+494at4751	Complete	MCICRS_021028-T1	2621.3	2789	https://www.orthodb.org/v10?query=494at4751	Midasin
+771at4751	Complete	MCICRS_027329-T1	1129.6	2156	https://www.orthodb.org/v10?query=771at4751	PIK-related kinase
+1866at4751	Complete	MCICRS_017313-T1	2878.1	1783	https://www.orthodb.org/v10?query=1866at4751	Glutamate synthase
+3534at4751	Complete	MCICRS_023304-T1	1562.4	1362	https://www.orthodb.org/v10?query=3534at4751	SNF2-related, N-terminal domain
+4409at4751	Missing
+4466at4751	Complete	MCICRS_010630-T1	1563.2	1818	https://www.orthodb.org/v10?query=4466at4751	Ribosomal protein L19
+4523at4751	Complete	MCICRS_020871-T1	3018.8	1889	https://www.orthodb.org/v10?query=4523at4751	Pre-mRNA-processing-splicing factor 8
+5995at4751	Duplicated	MCICRS_022074-T1	524.4	786	https://www.orthodb.org/v10?query=5995at4751	Protein kinase domain
+5995at4751	Duplicated	MCICRS_022073-T1	522.2	770	https://www.orthodb.org/v10?query=5995at4751	Protein kinase domain
+6186at4751	Complete	MCICRS_019006-T1	401.9	936	https://www.orthodb.org/v10?query=6186at4751	Armadillo-type fold
+6272at4751	Complete	MCICRS_024929-T1	756.2	799	https://www.orthodb.org/v10?query=6272at4751	WD40-repeat-containing domain
+6377at4751	Duplicated	MCICRS_014864-T1	336.4	1010	https://www.orthodb.org/v10?query=6377at4751	L-aminoadipate-semialdehyde dehydrogenase
+6377at4751	Duplicated	MCICRS_003278-T1	329.1	1059	https://www.orthodb.org/v10?query=6377at4751	L-aminoadipate-semialdehyde dehydrogenase
+6592at4751	Missing
+6812at4751	Fragmented	MCICRS_004331-T1	42.2	185	https://www.orthodb.org/v10?query=6812at4751	DNA polymerase epsilon catalytic subunit
+7423at4751	Fragmented	MCICRS_025893-T1	329.1	366	https://www.orthodb.org/v10?query=7423at4751	CCR4-NOT transcription complex subunit 1, CAF1-binding domain
+7545at4751	Complete	MCICRS_020773-T1	191.8	641	https://www.orthodb.org/v10?query=7545at4751	Anaphase-promoting complex subunit 1
+8406at4751	Complete	MCICRS_009832-T1	459.7	588	https://www.orthodb.org/v10?query=8406at4751	Transcription initiation factor TFIID subunit 2
+8818at4751	Complete	MCICRS_009374-T1	1938.3	1397	https://www.orthodb.org/v10?query=8818at4751	Clathrin heavy chain
+10168at4751	Fragmented	MCICRS_002219-T1	559.4	579	https://www.orthodb.org/v10?query=10168at4751	Nitrite/Sulfite reductase ferredoxin-like domain
+10531at4751	Complete	MCICRS_026233-T1	505.5	675	https://www.orthodb.org/v10?query=10531at4751	Rapamycin-insensitive companion of mTOR, domain 4
+11140at4751	Missing
+11636at4751	Missing
+11879at4751	Missing
+12258at4751	Duplicated	MCICRS_004750-T1	1374.4	976	https://www.orthodb.org/v10?query=12258at4751	Phosphoribosylformylglycinamidine synthase
+12258at4751	Duplicated	MCICRS_019523-T1	1372.2	997	https://www.orthodb.org/v10?query=12258at4751	Phosphoribosylformylglycinamidine synthase
+12258at4751	Duplicated	MCICRS_008218-T1	1328.2	980	https://www.orthodb.org/v10?query=12258at4751	Phosphoribosylformylglycinamidine synthase
+12258at4751	Duplicated	MCICRS_002462-T1	1223.1	889	https://www.orthodb.org/v10?query=12258at4751	Phosphoribosylformylglycinamidine synthase
+12812at4751	Complete	MCICRS_030249-T1	234.5	399	https://www.orthodb.org/v10?query=12812at4751	WD40/YVTN repeat-like-containing domain superfamily
+12959at4751	Missing
+13224at4751	Fragmented	MCICRS_014111-T1	176.8	555	https://www.orthodb.org/v10?query=13224at4751	Nucleoporin, Nup133/Nup155-like, N-terminal
+13605at4751	Fragmented	MCICRS_007557-T1	275.4	625	https://www.orthodb.org/v10?query=13605at4751	clathrin-coated vesicle protein
+14295at4751	Duplicated	MCICRS_018310-T1	1147.7	795	https://www.orthodb.org/v10?query=14295at4751	Carbamoyl-phosphate synthase arginine-specific large chain
+14295at4751	Duplicated	MCICRS_014479-T1	1129.7	813	https://www.orthodb.org/v10?query=14295at4751	Carbamoyl-phosphate synthase arginine-specific large chain
+14441at4751	Missing
+14523at4751	Complete	MCICRS_017999-T1	903.3	879	https://www.orthodb.org/v10?query=14523at4751	Exportin-1
+14793at4751	Complete	MCICRS_023393-T1	337.9	761	https://www.orthodb.org/v10?query=14793at4751	Nucleoporin Pom152
+14986at4751	Fragmented	MCICRS_010302-T1	661.2	514	https://www.orthodb.org/v10?query=14986at4751	DNA-directed RNA polymerase
+17174at4751	Complete	MCICRS_016409-T1	742.7	592	https://www.orthodb.org/v10?query=17174at4751	DNA polymerase gamma
+18809at4751	Complete	MCICRS_022235-T1	165.0	529	https://www.orthodb.org/v10?query=18809at4751	RIC1-domain-containing protein
+20600at4751	Duplicated	MCICRS_004670-T1	1138.4	780	https://www.orthodb.org/v10?query=20600at4751	glycine dehydrogenase
+20600at4751	Duplicated	MCICRS_002160-T1	1101.9	764	https://www.orthodb.org/v10?query=20600at4751	glycine dehydrogenase
+20600at4751	Duplicated	MCICRS_003691-T1	1101.5	752	https://www.orthodb.org/v10?query=20600at4751	glycine dehydrogenase
+20600at4751	Duplicated	MCICRS_017642-T1	1071.0	713	https://www.orthodb.org/v10?query=20600at4751	glycine dehydrogenase
+20600at4751	Duplicated	MCICRS_010770-T1	1057.6	733	https://www.orthodb.org/v10?query=20600at4751	glycine dehydrogenase
+20952at4751	Missing
+21651at4751	Missing
+21689at4751	Complete	MCICRS_026771-T1	531.0	613	https://www.orthodb.org/v10?query=21689at4751	WD40 repeat
+22982at4751	Complete	MCICRS_014584-T1	1166.3	831	https://www.orthodb.org/v10?query=22982at4751	isoleucine-tRNA ligase
+22992at4751	Complete	MCICRS_016652-T1	205.9	398	https://www.orthodb.org/v10?query=22992at4751	WD40/YVTN repeat-like-containing domain superfamily
+23198at4751	Complete	MCICRS_021830-T1	1432.9	1080	https://www.orthodb.org/v10?query=23198at4751	Glycogen debranching enzyme
+23856at4751	Complete	MCICRS_007358-T1	651.0	1012	https://www.orthodb.org/v10?query=23856at4751	Transcription elongation factor Spt6
+24198at4751	Complete	MCICRS_006854-T1	292.8	706	https://www.orthodb.org/v10?query=24198at4751	Armadillo-type fold
+25020at4751	Complete	MCICRS_025922-T1	700.6	722	https://www.orthodb.org/v10?query=25020at4751	Condensin complex subunit 1
+25161at4751	Missing
+26329at4751	Fragmented	MCICRS_015590-T1	498.4	647	https://www.orthodb.org/v10?query=26329at4751	DNA-directed RNA polymerase, subunit 2, hybrid-binding domain
+27008at4751	Missing
+29512at4751	Missing
+31256at4751	Missing
+31324at4751	Complete	MCICRS_018589-T1	326.1	714	https://www.orthodb.org/v10?query=31324at4751	Nrap protein
+32164at4751	Fragmented	MCICRS_019174-T1	394.4	518	https://www.orthodb.org/v10?query=32164at4751	Importin beta-1 subunit
+33984at4751	Complete	MCICRS_019670-T1	767.0	652	https://www.orthodb.org/v10?query=33984at4751	Inositol hexakisphosphate and diphosphoinositol-pentakisphosphate kinase
+34223at4751	Fragmented	MCICRS_021180-T1	90.1	326	https://www.orthodb.org/v10?query=34223at4751	Nucleoporin, Nup133/Nup155-like, C-terminal
+34706at4751	Complete	MCICRS_012682-T1	508.6	632	https://www.orthodb.org/v10?query=34706at4751	MIF4G-like domain superfamily
+34830at4751	Complete	MCICRS_016232-T1	711.6	799	https://www.orthodb.org/v10?query=34830at4751	Elongator complex protein 1
+36610at4751	Complete	MCICRS_029506-T1	341.5	503	https://www.orthodb.org/v10?query=36610at4751	Tubulin-specific chaperone D
+37028at4751	Duplicated	MCICRS_028440-T1	733.1	606	https://www.orthodb.org/v10?query=37028at4751	Cobalamin-independent methionine synthase
+37028at4751	Duplicated	MCICRS_003462-T1	718.6	605	https://www.orthodb.org/v10?query=37028at4751	Cobalamin-independent methionine synthase
+37028at4751	Duplicated	MCICRS_008500-T1	717.1	605	https://www.orthodb.org/v10?query=37028at4751	Cobalamin-independent methionine synthase
+37028at4751	Duplicated	MCICRS_001491-T1	715.0	605	https://www.orthodb.org/v10?query=37028at4751	Cobalamin-independent methionine synthase
+37028at4751	Duplicated	MCICRS_013395-T1	686.9	605	https://www.orthodb.org/v10?query=37028at4751	Cobalamin-independent methionine synthase
+37028at4751	Duplicated	MCICRS_006205-T1	685.4	605	https://www.orthodb.org/v10?query=37028at4751	Cobalamin-independent methionine synthase
+37028at4751	Duplicated	MCICRS_026515-T1	668.3	605	https://www.orthodb.org/v10?query=37028at4751	Cobalamin-independent methionine synthase
+37028at4751	Duplicated	MCICRS_003734-T1	656.1	544	https://www.orthodb.org/v10?query=37028at4751	Cobalamin-independent methionine synthase
+37573at4751	Complete	MCICRS_010912-T1	765.5	469	https://www.orthodb.org/v10?query=37573at4751	Helicase, C-terminal
+37642at4751	Duplicated	MCICRS_013486-T1	138.3	308	https://www.orthodb.org/v10?query=37642at4751	RNB-domain-containing protein
+37642at4751	Duplicated	MCICRS_000147-T1	125.7	273	https://www.orthodb.org/v10?query=37642at4751	RNB-domain-containing protein
+38031at4751	Complete	MCICRS_029834-T1	228.7	460	https://www.orthodb.org/v10?query=38031at4751	Cap binding protein
+38184at4751	Complete	MCICRS_020459-T1	511.1	544	https://www.orthodb.org/v10?query=38184at4751	AP-3 complex subunit delta
+39833at4751	Complete	MCICRS_022544-T1	342.1	491	https://www.orthodb.org/v10?query=39833at4751	WD40-repeat-containing domain
+43842at4751	Complete	MCICRS_015339-T1	137.9	497	https://www.orthodb.org/v10?query=43842at4751	Armadillo-type fold
+46090at4751	Complete	MCICRS_011878-T1	306.1	526	https://www.orthodb.org/v10?query=46090at4751	ARM repeat-containing protein
+46098at4751	Duplicated	MCICRS_028251-T1	482.1	722	https://www.orthodb.org/v10?query=46098at4751	P-loop containing nucleoside triphosphate hydrolase protein
+46098at4751	Duplicated	MCICRS_013642-T1	471.1	722	https://www.orthodb.org/v10?query=46098at4751	P-loop containing nucleoside triphosphate hydrolase protein
+46119at4751	Missing
+46666at4751	Complete	MCICRS_030142-T1	721.3	849	https://www.orthodb.org/v10?query=46666at4751	Winged helix-like DNA-binding domain superfamily
+46752at4751	Complete	MCICRS_023423-T1	612.1	732	https://www.orthodb.org/v10?query=46752at4751	GPI ethanolamine phosphate transferase 3
+46918at4751	Complete	MCICRS_025921-T1	375.1	408	https://www.orthodb.org/v10?query=46918at4751	Tetratricopeptide repeat
+47592at4751	Complete	MCICRS_009861-T1	597.2	646	https://www.orthodb.org/v10?query=47592at4751	Eukaryotic translation initiation factor 3 subunit C
+48708at4751	Complete	MCICRS_029970-T1	1102.7	839	https://www.orthodb.org/v10?query=48708at4751	Leucyl-tRNA synthetase
+49476at4751	Complete	MCICRS_014105-T1	541.2	470	https://www.orthodb.org/v10?query=49476at4751	Dynamin, GTPase domain
+49967at4751	Complete	MCICRS_020254-T1	626.9	555	https://www.orthodb.org/v10?query=49967at4751	Vacuole morphology and inheritance protein 14
+50786at4751	Missing
+50835at4751	Complete	MCICRS_010662-T1	839.9	639	https://www.orthodb.org/v10?query=50835at4751	Alanine--tRNA ligase
+52541at4751	Missing
+52909at4751	Fragmented	MCICRS_026107-T1	479.3	375	https://www.orthodb.org/v10?query=52909at4751	26S proteasome regulatory subunit RPN1
+53270at4751	Complete	MCICRS_020891-T1	678.5	794	https://www.orthodb.org/v10?query=53270at4751	UDP-glucose
+54252at4751	Complete	MCICRS_009281-T1	811.1	658	https://www.orthodb.org/v10?query=54252at4751	26S proteasome regulatory subunit RPN2
+54919at4751	Fragmented	MCICRS_000805-T1	251.6	311	https://www.orthodb.org/v10?query=54919at4751	Cysteinyl-tRNA synthetase
+56395at4751	Missing
+56432at4751	Complete	MCICRS_029322-T1	204.2	532	https://www.orthodb.org/v10?query=56432at4751	putative exocyst complex component sec8
+56729at4751	Missing
+57081at4751	Missing
+58127at4751	Complete	MCICRS_014075-T1	216.2	661	https://www.orthodb.org/v10?query=58127at4751	K Homology domain, type 1
+59795at4751	Complete	MCICRS_012899-T1	635.9	609	https://www.orthodb.org/v10?query=59795at4751	Coatomer subunit gamma
+61411at4751	Complete	MCICRS_027353-T1	221.0	333	https://www.orthodb.org/v10?query=61411at4751	WD40-repeat-containing domain
+61438at4751	Complete	MCICRS_027236-T1	439.7	495	https://www.orthodb.org/v10?query=61438at4751	Pep3/Vps18/deep orange
+61857at4751	Complete	MCICRS_028134-T1	79.4	321	https://www.orthodb.org/v10?query=61857at4751	Exocyst complex protein EXO70
+62846at4751	Complete	MCICRS_022637-T1	303.1	363	https://www.orthodb.org/v10?query=62846at4751	Ribosome biogenesis protein tsr1
+63635at4751	Complete	MCICRS_010956-T1	685.5	664	https://www.orthodb.org/v10?query=63635at4751	AP-2 complex subunit alpha
+63838at4751	Complete	MCICRS_011036-T1	263.2	329	https://www.orthodb.org/v10?query=63838at4751	AP complex subunit beta
+64002at4751	Complete	MCICRS_019304-T1	554.9	519	https://www.orthodb.org/v10?query=64002at4751	Transcription initiation factor TFIID subunit 1
+64498at4751	Complete	MCICRS_009530-T1	752.7	520	https://www.orthodb.org/v10?query=64498at4751	glucosamine-fructose-6-phosphate aminotransferase
+65334at4751	Missing
+65499at4751	Complete	MCICRS_012057-T1	521.4	498	https://www.orthodb.org/v10?query=65499at4751	AP-1 complex subunit gamma
+66151at4751	Fragmented	MCICRS_029837-T1	289.1	392	https://www.orthodb.org/v10?query=66151at4751	Tetratricopeptide repeat
+67284at4751	Missing
+67399at4751	Complete	MCICRS_021046-T1	570.4	480	https://www.orthodb.org/v10?query=67399at4751	Glutamine-dependent NAD(+) synthetase
+67806at4751	Complete	MCICRS_016700-T1	248.4	381	https://www.orthodb.org/v10?query=67806at4751	actin-like ATPase domain-containing protein
+68466at4751	Complete	MCICRS_015113-T1	949.8	792	https://www.orthodb.org/v10?query=68466at4751	FACT complex subunit SPT16
+68881at4751	Missing
+71039at4751	Complete	MCICRS_028712-T1	898.3	696	https://www.orthodb.org/v10?query=71039at4751	RNA cytidine acetyltransferase
+71046at4751	Complete	MCICRS_014039-T1	665.2	639	https://www.orthodb.org/v10?query=71046at4751	Vacuolar protein sorting-associated protein 35
+73383at4751	Complete	MCICRS_021040-T1	522.8	481	https://www.orthodb.org/v10?query=73383at4751	DNA topoisomerase I
+73477at4751	Complete	MCICRS_023644-T1	478.7	366	https://www.orthodb.org/v10?query=73477at4751	Vacuolar protein 8
+73771at4751	Missing
+75033at4751	Missing
+75456at4751	Fragmented	MCICRS_014185-T1	66.9	148	https://www.orthodb.org/v10?query=75456at4751	Vps53-like, N-terminal
+75463at4751	Complete	MCICRS_030337-T1	565.3	536	https://www.orthodb.org/v10?query=75463at4751	Mitochondrial intermediate peptidase
+75709at4751	Fragmented	MCICRS_021411-T1	555.1	413	https://www.orthodb.org/v10?query=75709at4751	Lysophospholipase NTE1
+75976at4751	Complete	MCICRS_024061-T1	578.6	494	https://www.orthodb.org/v10?query=75976at4751	Calcium permease family membrane transporter
+76196at4751	Duplicated	MCICRS_005875-T1	325.9	348	https://www.orthodb.org/v10?query=76196at4751	Histidine biosynthesis trifunctional protein
+76196at4751	Duplicated	MCICRS_023673-T1	278.6	305	https://www.orthodb.org/v10?query=76196at4751	Histidine biosynthesis trifunctional protein
+76893at4751	Complete	MCICRS_022078-T1	787.0	520	https://www.orthodb.org/v10?query=76893at4751	ATPase, AAA-type, conserved site
+76975at4751	Fragmented	MCICRS_010929-T1	206.6	351	https://www.orthodb.org/v10?query=76975at4751	Exocyst complex component Sec5
+78289at4751	Complete	MCICRS_008368-T1	552.8	435	https://www.orthodb.org/v10?query=78289at4751	Fimbrin
+78665at4751	Complete	MCICRS_026024-T1	256.4	398	https://www.orthodb.org/v10?query=78665at4751	Spindle pole body component
+79262at4751	Duplicated	MCICRS_006770-T1	577.6	480	https://www.orthodb.org/v10?query=79262at4751	Electron transfer flavoprotein-ubiquinone oxidoreductase
+79262at4751	Duplicated	MCICRS_017798-T1	577.1	486	https://www.orthodb.org/v10?query=79262at4751	Electron transfer flavoprotein-ubiquinone oxidoreductase
+79262at4751	Duplicated	MCICRS_021449-T1	575.3	486	https://www.orthodb.org/v10?query=79262at4751	Electron transfer flavoprotein-ubiquinone oxidoreductase
+79262at4751	Duplicated	MCICRS_021975-T1	571.6	445	https://www.orthodb.org/v10?query=79262at4751	Electron transfer flavoprotein-ubiquinone oxidoreductase
+79294at4751	Missing
+79797at4751	Complete	MCICRS_020370-T1	392.9	638	https://www.orthodb.org/v10?query=79797at4751	WD40-repeat-containing domain
+79988at4751	Complete	MCICRS_030243-T1	83.4	202	https://www.orthodb.org/v10?query=79988at4751	Polynucleotide 5'-hydroxyl-kinase grc3
+81295at4751	Complete	MCICRS_017321-T1	767.6	441	https://www.orthodb.org/v10?query=81295at4751	ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain
+81614at4751	Missing
+81687at4751	Complete	MCICRS_003002-T1	596.1	446	https://www.orthodb.org/v10?query=81687at4751	asparagine synthase (glutamine-hydrolyzing)
+84250at4751	Fragmented	MCICRS_017536-T1	186.5	397	https://www.orthodb.org/v10?query=84250at4751	TRAPP II complex, TRAPPC10
+84829at4751	Duplicated	MCICRS_008381-T1	207.8	214	https://www.orthodb.org/v10?query=84829at4751	DUF747-domain-containing protein
+84829at4751	Duplicated	MCICRS_029051-T1	207.8	214	https://www.orthodb.org/v10?query=84829at4751	DUF747-domain-containing protein
+85793at4751	Missing
+86293at4751	Duplicated	MCICRS_005651-T1	124.9	311	https://www.orthodb.org/v10?query=86293at4751	Aldehyde dehydrogenase, glutamic acid active site
+86293at4751	Duplicated	MCICRS_000850-T1	121.6	310	https://www.orthodb.org/v10?query=86293at4751	Aldehyde dehydrogenase, glutamic acid active site
+86293at4751	Duplicated	MCICRS_013717-T1	119.6	335	https://www.orthodb.org/v10?query=86293at4751	Aldehyde dehydrogenase, glutamic acid active site
+86293at4751	Duplicated	MCICRS_018865-T1	117.1	396	https://www.orthodb.org/v10?query=86293at4751	Aldehyde dehydrogenase, glutamic acid active site
+86293at4751	Duplicated	MCICRS_019349-T1	108.8	316	https://www.orthodb.org/v10?query=86293at4751	Aldehyde dehydrogenase, glutamic acid active site
+86293at4751	Duplicated	MCICRS_006949-T1	108.6	281	https://www.orthodb.org/v10?query=86293at4751	Aldehyde dehydrogenase, glutamic acid active site
+87251at4751	Duplicated	MCICRS_015431-T1	590.9	806	https://www.orthodb.org/v10?query=87251at4751	Ribosomal RNA-processing protein 12
+87251at4751	Duplicated	MCICRS_028385-T1	577.5	806	https://www.orthodb.org/v10?query=87251at4751	Ribosomal RNA-processing protein 12
+87313at4751	Duplicated	MCICRS_029005-T1	851.7	441	https://www.orthodb.org/v10?query=87313at4751	Elongator complex protein 3
+87313at4751	Duplicated	MCICRS_029006-T1	851.7	441	https://www.orthodb.org/v10?query=87313at4751	Elongator complex protein 3
+90022at4751	Complete	MCICRS_028401-T1	117.0	174	https://www.orthodb.org/v10?query=90022at4751	nucleotide-diphospho-sugar transferase
+91135at4751	Complete	MCICRS_020313-T1	188.4	327	https://www.orthodb.org/v10?query=91135at4751	Far11/STRP, C-terminal
+92267at4751	Complete	MCICRS_013929-T1	477.0	413	https://www.orthodb.org/v10?query=92267at4751	Phenylalanyl-tRNA synthetase
+93783at4751	Complete	MCICRS_027544-T1	237.1	478	https://www.orthodb.org/v10?query=93783at4751	ER membrane protein complex subunit 1
+94384at4751	Complete	MCICRS_019090-T1	373.5	421	https://www.orthodb.org/v10?query=94384at4751	DNA topoisomerase
+94628at4751	Complete	MCICRS_023886-T1	791.3	516	https://www.orthodb.org/v10?query=94628at4751	DNA helicase
+95253at4751	Missing
+96633at4751	Complete	MCICRS_028539-T1	370.5	578	https://www.orthodb.org/v10?query=96633at4751	Cleavage and polyadenylation specificity factor subunit 2
+97141at4751	Missing
+98519at4751	Complete	MCICRS_026041-T1	74.0	307	https://www.orthodb.org/v10?query=98519at4751	Symplekin/Pta1
+98733at4751	Complete	MCICRS_029972-T1	779.5	508	https://www.orthodb.org/v10?query=98733at4751	threonyl-tRNA synthetase
+98739at4751	Missing
+100957at4751	Complete	MCICRS_029067-T1	363.3	615	https://www.orthodb.org/v10?query=100957at4751	ARM repeat-containing protein
+101133at4751	Complete	MCICRS_018882-T1	424.6	377	https://www.orthodb.org/v10?query=101133at4751	Phosphoribosylaminoimidazole carboxylase
+103183at4751	Complete	MCICRS_023133-T1	563.4	548	https://www.orthodb.org/v10?query=103183at4751	DNA repair protein
+103461at4751	Complete	MCICRS_027400-T1	749.7	672	https://www.orthodb.org/v10?query=103461at4751	P-loop containing nucleoside triphosphate hydrolase protein
+103836at4751	Complete	MCICRS_021983-T1	316.3	355	https://www.orthodb.org/v10?query=103836at4751	WD40-repeat-containing domain
+104173at4751	Duplicated	MCICRS_025955-T1	312.6	423	https://www.orthodb.org/v10?query=104173at4751	Noc2-domain-containing protein
+104173at4751	Duplicated	MCICRS_023959-T1	311.7	451	https://www.orthodb.org/v10?query=104173at4751	Noc2-domain-containing protein
+104415at4751	Missing
+105401at4751	Complete	MCICRS_025289-T1	898.7	535	https://www.orthodb.org/v10?query=105401at4751	GroEL-like apical domain superfamily
+106281at4751	Complete	MCICRS_013625-T1	446.6	742	https://www.orthodb.org/v10?query=106281at4751	endosomal peripheral membrane protein
+107136at4751	Complete	MCICRS_027603-T1	669.8	558	https://www.orthodb.org/v10?query=107136at4751	glycoside hydrolase family 31 protein
+107464at4751	Duplicated	MCICRS_006159-T1	581.4	405	https://www.orthodb.org/v10?query=107464at4751	Glucose-6-phosphate isomerase
+107464at4751	Duplicated	MCICRS_022566-T1	539.8	389	https://www.orthodb.org/v10?query=107464at4751	Glucose-6-phosphate isomerase
+107464at4751	Duplicated	MCICRS_026637-T1	512.3	406	https://www.orthodb.org/v10?query=107464at4751	Glucose-6-phosphate isomerase
+109276at4751	Complete	MCICRS_030290-T1	320.4	393	https://www.orthodb.org/v10?query=109276at4751	CCAAT-box-binding transcription factor
+111022at4751	Duplicated	MCICRS_001267-T1	88.0	253	https://www.orthodb.org/v10?query=111022at4751	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+111022at4751	Duplicated	MCICRS_008175-T1	84.9	255	https://www.orthodb.org/v10?query=111022at4751	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+111022at4751	Duplicated	MCICRS_026376-T1	83.9	252	https://www.orthodb.org/v10?query=111022at4751	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+111022at4751	Duplicated	MCICRS_003342-T1	82.7	254	https://www.orthodb.org/v10?query=111022at4751	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+111189at4751	Complete	MCICRS_010619-T1	625.2	563	https://www.orthodb.org/v10?query=111189at4751	ATP-dependent RNA helicase DBP10
+112646at4751	Complete	MCICRS_015673-T1	42.5	226	https://www.orthodb.org/v10?query=112646at4751	oligomeric Golgi complex subunit 6
+112937at4751	Complete	MCICRS_024311-T1	425.5	408	https://www.orthodb.org/v10?query=112937at4751	P-loop containing nucleoside triphosphate hydrolase protein
+115993at4751	Duplicated	MCICRS_023581-T1	528.2	421	https://www.orthodb.org/v10?query=115993at4751	Ribosome biogenesis protein ERB1
+115993at4751	Duplicated	MCICRS_023390-T1	482.7	459	https://www.orthodb.org/v10?query=115993at4751	Ribosome biogenesis protein ERB1
+117017at4751	Duplicated	MCICRS_025646-T1	649.1	451	https://www.orthodb.org/v10?query=117017at4751	Methionyl-tRNA synthetase
+117017at4751	Duplicated	MCICRS_025647-T1	604.5	451	https://www.orthodb.org/v10?query=117017at4751	Methionyl-tRNA synthetase
+118189at4751	Missing
+118701at4751	Fragmented	MCICRS_027629-T1	539.1	412	https://www.orthodb.org/v10?query=118701at4751	Phosphatidylinositol 3-kinase VPS34
+119833at4751	Complete	MCICRS_010056-T1	207.5	364	https://www.orthodb.org/v10?query=119833at4751	Histone-lysine N-methyltransferase
+122507at4751	Complete	MCICRS_019692-T1	347.4	440	https://www.orthodb.org/v10?query=122507at4751	WD40-repeat-containing domain
+122824at4751	Missing
+123228at4751	Missing
+123277at4751	Missing
+123494at4751	Missing
+125400at4751	Missing
+125935at4751	Complete	MCICRS_012771-T1	443.8	396	https://www.orthodb.org/v10?query=125935at4751	tRNA-dihydrouridine(47) synthase 
+126037at4751	Missing
+126249at4751	Missing
+126256at4751	Missing
+126519at4751	Complete	MCICRS_027435-T1	552.6	426	https://www.orthodb.org/v10?query=126519at4751	Imidazole glycerol phosphate synthase hisHF
+127140at4751	Fragmented	MCICRS_030162-T1	310.9	276	https://www.orthodb.org/v10?query=127140at4751	Protein arginine N-methyltransferase
+129160at4751	Complete	MCICRS_025819-T1	664.8	441	https://www.orthodb.org/v10?query=129160at4751	T-complex protein 1 subunit zeta
+129326at4751	Fragmented	MCICRS_030115-T1	288.7	436	https://www.orthodb.org/v10?query=129326at4751	Putative nucleolar complex protein 14
+129520at4751	Complete	MCICRS_018407-T1	418.0	381	https://www.orthodb.org/v10?query=129520at4751	Alpha-D-phosphohexomutase, alpha/beta/alpha domain I
+130062at4751	Missing
+130930at4751	Complete	MCICRS_028444-T1	259.3	1256	https://www.orthodb.org/v10?query=130930at4751	Nucleoporin Nup186/Nup192/Nup205
+130976at4751	Missing
+133954at4751	Missing
+135184at4751	Fragmented	MCICRS_013935-T1	184.5	188	https://www.orthodb.org/v10?query=135184at4751	Nitrogen permease regulator 2
+135652at4751	Complete	MCICRS_029236-T1	366.8	333	https://www.orthodb.org/v10?query=135652at4751	Poly(A) polymerase
+137963at4751	Complete	MCICRS_014077-T1	686.0	427	https://www.orthodb.org/v10?query=137963at4751	Prolyl-tRNA synthetase
+138484at4751	Complete	MCICRS_022152-T1	150.5	323	https://www.orthodb.org/v10?query=138484at4751	DNA polymerase epsilon subunit
+138695at4751	Complete	MCICRS_011764-T1	691.7	456	https://www.orthodb.org/v10?query=138695at4751	Nucleolar GTP-binding protein 1
+138697at4751	Duplicated	MCICRS_004736-T1	426.0	386	https://www.orthodb.org/v10?query=138697at4751	Threonine synthase
+138697at4751	Duplicated	MCICRS_002444-T1	424.1	382	https://www.orthodb.org/v10?query=138697at4751	Threonine synthase
+138833at4751	Complete	MCICRS_017324-T1	555.1	439	https://www.orthodb.org/v10?query=138833at4751	Protein phosphatase PP2A regulatory subunit A
+141273at4751	Complete	MCICRS_011742-T1	164.1	227	https://www.orthodb.org/v10?query=141273at4751	methionine-tRNA ligase
+142357at4751	Missing
+142965at4751	Complete	MCICRS_030087-T1	148.3	211	https://www.orthodb.org/v10?query=142965at4751	GPI transamidase component GPI16
+143414at4751	Fragmented	MCICRS_028123-T1	192.2	241	https://www.orthodb.org/v10?query=143414at4751	Transcription factor 25
+145178at4751	Fragmented	MCICRS_029364-T1	62.2	184	https://www.orthodb.org/v10?query=145178at4751	Topoisomerase 1-associated factor 1
+145378at4751	Missing
+145524at4751	Fragmented	MCICRS_010643-T1	368.6	231	https://www.orthodb.org/v10?query=145524at4751	Nuclear elongation and deformation protein 1
+147028at4751	Complete	MCICRS_027306-T1	272.9	290	https://www.orthodb.org/v10?query=147028at4751	WD40-repeat-containing domain
+148293at4751	Complete	MCICRS_022881-T1	779.7	406	https://www.orthodb.org/v10?query=148293at4751	ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain
+150469at4751	Complete	MCICRS_022886-T1	492.3	368	https://www.orthodb.org/v10?query=150469at4751	T-complex protein 1 subunit beta
+153083at4751	Complete	MCICRS_019385-T1	451.9	496	https://www.orthodb.org/v10?query=153083at4751	Ubiquitin carboxyl-terminal hydrolase
+154126at4751	Missing
+156073at4751	Missing
+160044at4751	Missing
+160875at4751	Complete	MCICRS_012348-T1	411.4	375	https://www.orthodb.org/v10?query=160875at4751	RNA helicase
+160940at4751	Duplicated	MCICRS_028772-T1	141.9	229	https://www.orthodb.org/v10?query=160940at4751	Phosphoserine aminotransferase
+160940at4751	Duplicated	MCICRS_012441-T1	141.1	229	https://www.orthodb.org/v10?query=160940at4751	Phosphoserine aminotransferase
+160940at4751	Duplicated	MCICRS_008611-T1	131.8	223	https://www.orthodb.org/v10?query=160940at4751	Phosphoserine aminotransferase
+160940at4751	Duplicated	MCICRS_003127-T1	128.1	227	https://www.orthodb.org/v10?query=160940at4751	Phosphoserine aminotransferase
+160995at4751	Missing
+161113at4751	Missing
+163318at4751	Complete	MCICRS_008132-T1	158.4	243	https://www.orthodb.org/v10?query=163318at4751	Tetratricopeptide-like helical domain superfamily
+165243at4751	Complete	MCICRS_018267-T1	242.5	223	https://www.orthodb.org/v10?query=165243at4751	General transcription and DNA repair factor IIH
+167290at4751	Missing
+167374at4751	Missing
+167498at4751	Complete	MCICRS_013164-T1	504.0	431	https://www.orthodb.org/v10?query=167498at4751	Signal recognition particle 54 kDa protein
+168092at4751	Missing
+168489at4751	Missing
+169381at4751	Missing
+170297at4751	Fragmented	MCICRS_025619-T1	396.7	359	https://www.orthodb.org/v10?query=170297at4751	26S proteasome non-ATPase regulatory subunit 3
+170401at4751	Complete	MCICRS_019185-T1	166.3	436	https://www.orthodb.org/v10?query=170401at4751	Zinc finger, RING/FYVE/PHD-type
+170904at4751	Complete	MCICRS_016665-T1	474.1	837	https://www.orthodb.org/v10?query=170904at4751	P-loop containing nucleoside triphosphate hydrolase protein
+171181at4751	Missing
+171238at4751	Missing
+172113at4751	Complete	MCICRS_017442-T1	467.7	279	https://www.orthodb.org/v10?query=172113at4751	Eukaryotic peptide chain release factor subunit 1
+172363at4751	Missing
+172966at4751	Missing
+173428at4751	Duplicated	MCICRS_005703-T1	412.6	459	https://www.orthodb.org/v10?query=173428at4751	Aminoacyl-tRNA synthetase, class II
+173428at4751	Duplicated	MCICRS_004686-T1	407.0	407	https://www.orthodb.org/v10?query=173428at4751	Aminoacyl-tRNA synthetase, class II
+173428at4751	Duplicated	MCICRS_000045-T1	397.4	438	https://www.orthodb.org/v10?query=173428at4751	Aminoacyl-tRNA synthetase, class II
+173995at4751	Missing
+174653at4751	Complete	MCICRS_013128-T1	590.0	343	https://www.orthodb.org/v10?query=174653at4751	Adenosylhomocysteinase
+174672at4751	Missing
+175136at4751	Missing
+175599at4751	Fragmented	MCICRS_020298-T1	82.4	103	https://www.orthodb.org/v10?query=175599at4751	SWR1-complex protein 4
+176178at4751	Fragmented	MCICRS_027672-T1	55.1	55	https://www.orthodb.org/v10?query=176178at4751	putative 26S proteasome regulatory subunit rpn6
+176478at4751	Missing
+176648at4751	Missing
+176748at4751	Complete	MCICRS_029182-T1	320.4	392	https://www.orthodb.org/v10?query=176748at4751	WD40-repeat-containing domain
+179025at4751	Complete	MCICRS_023008-T1	132.0	178	https://www.orthodb.org/v10?query=179025at4751	Nucleotide-diphospho-sugar transferase
+179437at4751	Duplicated	MCICRS_009274-T1	346.2	360	https://www.orthodb.org/v10?query=179437at4751	anthranilate synthase component I
+179437at4751	Duplicated	MCICRS_024821-T1	346.2	360	https://www.orthodb.org/v10?query=179437at4751	anthranilate synthase component I
+179897at4751	Complete	MCICRS_013655-T1	173.2	228	https://www.orthodb.org/v10?query=179897at4751	Atg6/Beclin
+181890at4751	Duplicated	MCICRS_025892-T1	45.7	105	https://www.orthodb.org/v10?query=181890at4751	Putative RNA polymerase II transcription factor B subunit 1
+181890at4751	Duplicated	MCICRS_023895-T1	45.3	105	https://www.orthodb.org/v10?query=181890at4751	Putative RNA polymerase II transcription factor B subunit 1
+181959at4751	Complete	MCICRS_017508-T1	654.2	353	https://www.orthodb.org/v10?query=181959at4751	26S Proteasome regulatory subunit 6A
+183720at4751	Missing
+183801at4751	Complete	MCICRS_029625-T1	110.4	170	https://www.orthodb.org/v10?query=183801at4751	DNA-directed RNA polymerase III subunit RPC6
+183849at4751	Complete	MCICRS_030813-T1	605.2	479	https://www.orthodb.org/v10?query=183849at4751	Oligosaccharyl transferase STT3 subunit
+184718at4751	Duplicated	MCICRS_029855-T1	613.8	674	https://www.orthodb.org/v10?query=184718at4751	Pre-mRNA-processing factor 6
+184718at4751	Duplicated	MCICRS_029355-T1	603.0	694	https://www.orthodb.org/v10?query=184718at4751	Pre-mRNA-processing factor 6
+184762at4751	Missing
+185196at4751	Missing
+185399at4751	Fragmented	MCICRS_025144-T1	189.5	140	https://www.orthodb.org/v10?query=185399at4751	UDP-N-acetylglucosamine-dolichyl-phosphate N-acetylglucosaminephosphotransferase
+186138at4751	Fragmented	MCICRS_013518-T1	119.7	151	https://www.orthodb.org/v10?query=186138at4751	DNA primase
+186574at4751	Duplicated	MCICRS_010060-T1	461.1	366	https://www.orthodb.org/v10?query=186574at4751	Adenylosuccinate lyase
+186574at4751	Duplicated	MCICRS_003678-T1	400.3	365	https://www.orthodb.org/v10?query=186574at4751	Adenylosuccinate lyase
+186701at4751	Missing
+187821at4751	Duplicated	MCICRS_019514-T1	369.0	435	https://www.orthodb.org/v10?query=187821at4751	GMP synthase
+187821at4751	Duplicated	MCICRS_006454-T1	357.1	390	https://www.orthodb.org/v10?query=187821at4751	GMP synthase
+187821at4751	Duplicated	MCICRS_008241-T1	354.7	375	https://www.orthodb.org/v10?query=187821at4751	GMP synthase
+187821at4751	Duplicated	MCICRS_005351-T1	343.9	374	https://www.orthodb.org/v10?query=187821at4751	GMP synthase
+187821at4751	Duplicated	MCICRS_000480-T1	341.3	349	https://www.orthodb.org/v10?query=187821at4751	GMP synthase
+187821at4751	Duplicated	MCICRS_004755-T1	319.5	393	https://www.orthodb.org/v10?query=187821at4751	GMP synthase
+188070at4751	Missing
+189234at4751	Missing
+189573at4751	Missing
+190183at4751	Complete	MCICRS_025710-T1	290.8	264	https://www.orthodb.org/v10?query=190183at4751	Prephenate dehydrogenase
+190475at4751	Complete	MCICRS_018829-T1	400.6	388	https://www.orthodb.org/v10?query=190475at4751	digestive organ expansion factor
+190832at4751	Missing
+191114at4751	Fragmented	MCICRS_019094-T1	136.6	82	https://www.orthodb.org/v10?query=191114at4751	Phenylalanyl-tRNA synthetase alpha chain
+191296at4751	Missing
+191310at4751	Complete	MCICRS_025499-T1	341.7	420	https://www.orthodb.org/v10?query=191310at4751	Vps16, C-terminal
+192059at4751	Missing
+192135at4751	Complete	MCICRS_018899-T1	362.7	944	https://www.orthodb.org/v10?query=192135at4751	Rho GTPase activation protein
+192452at4751	Complete	MCICRS_012302-T1	473.4	521	https://www.orthodb.org/v10?query=192452at4751	Dihydropteroate synthase
+195619at4751	Missing
+195863at4751	Complete	MCICRS_016676-T1	494.1	768	https://www.orthodb.org/v10?query=195863at4751	Exportin-T
+196015at4751	Complete	MCICRS_031109-T1	487.4	282	https://www.orthodb.org/v10?query=196015at4751	putative rRNA pseudouridine synthase
+196094at4751	Missing
+196841at4751	Missing
+197111at4751	Duplicated	MCICRS_019501-T1	394.1	310	https://www.orthodb.org/v10?query=197111at4751	Cysteine desulfurase
+197111at4751	Duplicated	MCICRS_006471-T1	389.0	292	https://www.orthodb.org/v10?query=197111at4751	Cysteine desulfurase
+197111at4751	Duplicated	MCICRS_008228-T1	388.8	300	https://www.orthodb.org/v10?query=197111at4751	Cysteine desulfurase
+197111at4751	Duplicated	MCICRS_016838-T1	387.8	310	https://www.orthodb.org/v10?query=197111at4751	Cysteine desulfurase
+197111at4751	Duplicated	MCICRS_014156-T1	377.4	316	https://www.orthodb.org/v10?query=197111at4751	Cysteine desulfurase
+197612at4751	Missing
+198196at4751	Duplicated	MCICRS_017025-T1	428.4	371	https://www.orthodb.org/v10?query=198196at4751	Threonine dehydratase
+198196at4751	Duplicated	MCICRS_017577-T1	427.4	370	https://www.orthodb.org/v10?query=198196at4751	Threonine dehydratase
+198196at4751	Duplicated	MCICRS_019535-T1	374.0	352	https://www.orthodb.org/v10?query=198196at4751	Threonine dehydratase
+198196at4751	Duplicated	MCICRS_001827-T1	368.8	360	https://www.orthodb.org/v10?query=198196at4751	Threonine dehydratase
+198234at4751	Fragmented	MCICRS_015731-T1	84.3	175	https://www.orthodb.org/v10?query=198234at4751	Conserved oligomeric Golgi complex subunit 3
+200331at4751	Missing
+201591at4751	Missing
+202089at4751	Complete	MCICRS_011053-T1	131.5	176	https://www.orthodb.org/v10?query=202089at4751	Mitochondrial import receptor subunit TOM40
+202248at4751	Complete	MCICRS_023894-T1	34.2	264	https://www.orthodb.org/v10?query=202248at4751	Amino-acid acetyltransferase, mitochondrial
+203109at4751	Fragmented	MCICRS_027722-T1	58.5	106	https://www.orthodb.org/v10?query=203109at4751	Protein DOM34 homolog
+203710at4751	Complete	MCICRS_020594-T1	382.6	294	https://www.orthodb.org/v10?query=203710at4751	cytochrome oxidase assembly
+204087at4751	Complete	MCICRS_029551-T1	512.5	322	https://www.orthodb.org/v10?query=204087at4751	Chorismate synthase
+204341at4751	Fragmented	MCICRS_012684-T1	172.7	280	https://www.orthodb.org/v10?query=204341at4751	Condensin complex subunit 2
+204508at4751	Complete	MCICRS_025559-T1	126.5	223	https://www.orthodb.org/v10?query=204508at4751	mRNA cleavage and polyadenylation factor CLP1
+205479at4751	Duplicated	MCICRS_006833-T1	288.7	194	https://www.orthodb.org/v10?query=205479at4751	Cyclin-dependent kinase 7
+205479at4751	Duplicated	MCICRS_031005-T1	250.1	194	https://www.orthodb.org/v10?query=205479at4751	Cyclin-dependent kinase 7
+207926at4751	Missing
+208463at4751	Missing
+209053at4751	Complete	MCICRS_018036-T1	379.5	270	https://www.orthodb.org/v10?query=209053at4751	serine-tRNA ligase
+209619at4751	Complete	MCICRS_028497-T1	301.1	237	https://www.orthodb.org/v10?query=209619at4751	Threonylcarbamoyl-AMP synthase
+210178at4751	Missing
+210462at4751	Missing
+210986at4751	Complete	MCICRS_011092-T1	238.0	281	https://www.orthodb.org/v10?query=210986at4751	FACT complex subunit POB3
+211442at4751	Complete	MCICRS_028946-T1	217.2	196	https://www.orthodb.org/v10?query=211442at4751	endoplasmic oxidoreductin
+211634at4751	Missing
+211768at4751	Complete	MCICRS_015058-T1	323.3	258	https://www.orthodb.org/v10?query=211768at4751	60S ribosomal export protein NMD3
+212522at4751	Complete	MCICRS_014804-T1	224.9	341	https://www.orthodb.org/v10?query=212522at4751	Cyclin-like
+212735at4751	Missing
+213564at4751	Duplicated	MCICRS_010442-T1	136.0	171	https://www.orthodb.org/v10?query=213564at4751	Lipoate-protein ligase A
+213564at4751	Duplicated	MCICRS_008771-T1	132.0	170	https://www.orthodb.org/v10?query=213564at4751	Lipoate-protein ligase A
+215926at4751	Missing
+216270at4751	Complete	MCICRS_009552-T1	364.8	293	https://www.orthodb.org/v10?query=216270at4751	Rab GDP dissociation inhibitor
+216661at4751	Missing
+216683at4751	Fragmented	MCICRS_008006-T1	127.9	181	https://www.orthodb.org/v10?query=216683at4751	Phenylalanyl-tRNA synthetase
+216747at4751	Complete	MCICRS_013077-T1	259.7	261	https://www.orthodb.org/v10?query=216747at4751	Transcription initiation factor TFIID subunit 6
+216949at4751	Duplicated	MCICRS_029183-T1	163.2	270	https://www.orthodb.org/v10?query=216949at4751	Topoisomerase II-associated protein PAT1
+216949at4751	Duplicated	MCICRS_013651-T1	159.5	274	https://www.orthodb.org/v10?query=216949at4751	Topoisomerase II-associated protein PAT1
+217097at4751	Complete	MCICRS_019659-T1	253.7	226	https://www.orthodb.org/v10?query=217097at4751	kinase-like protein
+217374at4751	Duplicated	MCICRS_017950-T1	194.9	236	https://www.orthodb.org/v10?query=217374at4751	Fructose-1,6-bisphosphatase
+217374at4751	Duplicated	MCICRS_002024-T1	187.7	232	https://www.orthodb.org/v10?query=217374at4751	Fructose-1,6-bisphosphatase
+217374at4751	Duplicated	MCICRS_011686-T1	172.5	227	https://www.orthodb.org/v10?query=217374at4751	Fructose-1,6-bisphosphatase
+219236at4751	Missing
+219492at4751	Complete	MCICRS_025127-T1	98.8	195	https://www.orthodb.org/v10?query=219492at4751	Cwf19-like, C-terminal domain-1
+221926at4751	Missing
+224693at4751	Missing
+224775at4751	Missing
+224804at4751	Missing
+225321at4751	Fragmented	MCICRS_012462-T1	381.4	274	https://www.orthodb.org/v10?query=225321at4751	Actin family
+225351at4751	Missing
+225535at4751	Complete	MCICRS_009606-T1	310.2	332	https://www.orthodb.org/v10?query=225535at4751	Transcriptional adapter 2
+225712at4751	Fragmented	MCICRS_014823-T1	33.3	112	https://www.orthodb.org/v10?query=225712at4751	PEBP-like protein
+225820at4751	Missing
+225918at4751	Missing
+226810at4751	Fragmented	MCICRS_015907-T1	220.4	192	https://www.orthodb.org/v10?query=226810at4751	Bystin
+227572at4751	Missing
+228465at4751	Complete	MCICRS_028060-T1	158.1	294	https://www.orthodb.org/v10?query=228465at4751	Tetratricopeptide-like helical domain superfamily
+228752at4751	Missing
+229510at4751	Duplicated	MCICRS_024687-T1	325.5	252	https://www.orthodb.org/v10?query=229510at4751	tRNA (guanine(37)-N1)-methyltransferase
+229510at4751	Duplicated	MCICRS_024688-T1	325.5	252	https://www.orthodb.org/v10?query=229510at4751	tRNA (guanine(37)-N1)-methyltransferase
+229997at4751	Complete	MCICRS_030204-T1	65.9	107	https://www.orthodb.org/v10?query=229997at4751	actin-like ATPase domain-containing protein
+230605at4751	Missing
+231468at4751	Missing
+231582at4751	Missing
+232698at4751	Complete	MCICRS_028688-T1	465.3	487	https://www.orthodb.org/v10?query=232698at4751	Protein SEY1
+233287at4751	Complete	MCICRS_028270-T1	314.5	246	https://www.orthodb.org/v10?query=233287at4751	ATP-dependent RNA helicase DBP5
+233706at4751	Missing
+234548at4751	Complete	MCICRS_017711-T1	339.1	645	https://www.orthodb.org/v10?query=234548at4751	Nucleolar pre-ribosomal-associated protein 1, C-terminal domain
+234698at4751	Complete	MCICRS_008362-T1	342.2	302	https://www.orthodb.org/v10?query=234698at4751	P-loop containing nucleoside triphosphate hydrolase protein
+235105at4751	Missing
+235463at4751	Missing
+235640at4751	Fragmented	MCICRS_024338-T1	144.4	121	https://www.orthodb.org/v10?query=235640at4751	26S proteasome non-ATPase regulatory subunit 12
+236504at4751	Fragmented	MCICRS_015078-T1	104.4	102	https://www.orthodb.org/v10?query=236504at4751	Protein phosphatase PP2A regulatory subunit B
+237276at4751	Duplicated	MCICRS_029168-T1	217.7	312	https://www.orthodb.org/v10?query=237276at4751	Glucose-6-phosphate 1-dehydrogenase
+237276at4751	Duplicated	MCICRS_028155-T1	215.6	310	https://www.orthodb.org/v10?query=237276at4751	Glucose-6-phosphate 1-dehydrogenase
+237276at4751	Duplicated	MCICRS_004608-T1	214.5	324	https://www.orthodb.org/v10?query=237276at4751	Glucose-6-phosphate 1-dehydrogenase
+237276at4751	Duplicated	MCICRS_027371-T1	213.8	309	https://www.orthodb.org/v10?query=237276at4751	Glucose-6-phosphate 1-dehydrogenase
+237276at4751	Duplicated	MCICRS_010786-T1	204.5	299	https://www.orthodb.org/v10?query=237276at4751	Glucose-6-phosphate 1-dehydrogenase
+237276at4751	Duplicated	MCICRS_004640-T1	202.0	300	https://www.orthodb.org/v10?query=237276at4751	Glucose-6-phosphate 1-dehydrogenase
+237276at4751	Duplicated	MCICRS_014182-T1	193.2	300	https://www.orthodb.org/v10?query=237276at4751	Glucose-6-phosphate 1-dehydrogenase
+237281at4751	Duplicated	MCICRS_021605-T1	183.1	205	https://www.orthodb.org/v10?query=237281at4751	Glutamyl-tRNA(Gln) amidotransferase subunit B, mitochondrial
+237281at4751	Duplicated	MCICRS_004565-T1	168.7	234	https://www.orthodb.org/v10?query=237281at4751	Glutamyl-tRNA(Gln) amidotransferase subunit B, mitochondrial
+237281at4751	Duplicated	MCICRS_014133-T1	162.1	221	https://www.orthodb.org/v10?query=237281at4751	Glutamyl-tRNA(Gln) amidotransferase subunit B, mitochondrial
+237393at4751	Complete	MCICRS_026654-T1	174.4	337	https://www.orthodb.org/v10?query=237393at4751	Nucleolar complex-associated protein 3
+237533at4751	Missing
+238922at4751	Missing
+240036at4751	Duplicated	MCICRS_026193-T1	483.8	458	https://www.orthodb.org/v10?query=240036at4751	Pescadillo homolog
+240036at4751	Duplicated	MCICRS_026194-T1	422.5	392	https://www.orthodb.org/v10?query=240036at4751	Pescadillo homolog
+240246at4751	Complete	MCICRS_015343-T1	143.1	339	https://www.orthodb.org/v10?query=240246at4751	Nitrogen permease regulator 3
+241079at4751	Complete	MCICRS_017325-T1	244.4	331	https://www.orthodb.org/v10?query=241079at4751	Adenylyl cyclase-associated protein
+241483at4751	Missing
+241586at4751	Complete	MCICRS_012767-T1	330.4	362	https://www.orthodb.org/v10?query=241586at4751	WD40-repeat-containing domain
+241860at4751	Missing
+243015at4751	Missing
+244066at4751	Duplicated	MCICRS_005199-T1	249.6	296	https://www.orthodb.org/v10?query=244066at4751	Gamma-glutamyl phosphate reductase
+244066at4751	Duplicated	MCICRS_009181-T1	243.5	290	https://www.orthodb.org/v10?query=244066at4751	Gamma-glutamyl phosphate reductase
+244066at4751	Duplicated	MCICRS_002864-T1	238.4	295	https://www.orthodb.org/v10?query=244066at4751	Gamma-glutamyl phosphate reductase
+244066at4751	Duplicated	MCICRS_029434-T1	237.5	302	https://www.orthodb.org/v10?query=244066at4751	Gamma-glutamyl phosphate reductase
+244066at4751	Duplicated	MCICRS_019402-T1	229.7	322	https://www.orthodb.org/v10?query=244066at4751	Gamma-glutamyl phosphate reductase
+245480at4751	Complete	MCICRS_017604-T1	349.4	345	https://www.orthodb.org/v10?query=245480at4751	Replication protein A subunit
+245900at4751	Duplicated	MCICRS_028993-T1	360.3	313	https://www.orthodb.org/v10?query=245900at4751	Phosphoglycerate kinase
+245900at4751	Duplicated	MCICRS_028992-T1	345.6	300	https://www.orthodb.org/v10?query=245900at4751	Phosphoglycerate kinase
+246207at4751	Complete	MCICRS_026629-T1	226.7	200	https://www.orthodb.org/v10?query=246207at4751	WD40-repeat-containing domain
+246951at4751	Missing
+247065at4751	Complete	MCICRS_008352-T1	176.4	441	https://www.orthodb.org/v10?query=247065at4751	SNU66/SART1 family
+247129at4751	Fragmented	MCICRS_026184-T1	198.5	192	https://www.orthodb.org/v10?query=247129at4751	kinase-like protein
+247383at4751	Missing
+248360at4751	Duplicated	MCICRS_026811-T1	339.0	314	https://www.orthodb.org/v10?query=248360at4751	3'-5' exonuclease activity
+248360at4751	Duplicated	MCICRS_024537-T1	334.3	322	https://www.orthodb.org/v10?query=248360at4751	3'-5' exonuclease activity
+251158at4751	Missing
+251613at4751	Missing
+252314at4751	Missing
+252469at4751	Complete	MCICRS_021056-T1	268.9	232	https://www.orthodb.org/v10?query=252469at4751	Phosphatidate cytidylyltransferase
+254717at4751	Fragmented	MCICRS_009373-T1	86.6	64	https://www.orthodb.org/v10?query=254717at4751	ATPase GET3
+255378at4751	Complete	MCICRS_022396-T1	291.1	319	https://www.orthodb.org/v10?query=255378at4751	WD40-repeat-containing domain
+255412at4751	Missing
+256318at4751	Missing
+256914at4751	Complete	MCICRS_028050-T1	209.5	351	https://www.orthodb.org/v10?query=256914at4751	Mitochondrial import inner membrane translocase subunit TIM44
+257330at4751	Missing
+258245at4751	Missing
+258762at4751	Missing
+259060at4751	Complete	MCICRS_015004-T1	303.7	344	https://www.orthodb.org/v10?query=259060at4751	Phospholipid
+259444at4751	Complete	MCICRS_026923-T1	112.1	316	https://www.orthodb.org/v10?query=259444at4751	WD40-repeat-containing domain
+259700at4751	Complete	MCICRS_014998-T1	213.0	219	https://www.orthodb.org/v10?query=259700at4751	RNA 3'-terminal phosphate cyclase
+259883at4751	Missing
+260251at4751	Duplicated	MCICRS_014880-T1	105.6	213	https://www.orthodb.org/v10?query=260251at4751	ATP phosphoribosyltransferase
+260251at4751	Duplicated	MCICRS_023674-T1	95.5	196	https://www.orthodb.org/v10?query=260251at4751	ATP phosphoribosyltransferase
+260722at4751	Missing
+260896at4751	Missing
+261237at4751	Missing
+262317at4751	Missing
+263390at4751	Missing
+264038at4751	Missing
+264164at4751	Fragmented	MCICRS_013640-T1	177.4	218	https://www.orthodb.org/v10?query=264164at4751	Ankyrin repeat-containing domain
+265302at4751	Missing
+265325at4751	Missing
+266634at4751	Complete	MCICRS_007158-T1	212.9	325	https://www.orthodb.org/v10?query=266634at4751	SH3 domain
+267556at4751	Missing
+269389at4751	Fragmented	MCICRS_019662-T1	336.8	223	https://www.orthodb.org/v10?query=269389at4751	V-type proton ATPase subunit
+269580at4751	Complete	MCICRS_017992-T1	288.9	259	https://www.orthodb.org/v10?query=269580at4751	Protein HGH1 N-terminal
+269939at4751	Missing
+271511at4751	Complete	MCICRS_020265-T1	146.8	177	https://www.orthodb.org/v10?query=271511at4751	25S rRNA (Cytosine-C(5))-methyltransferase rcm1
+271781at4751	Complete	MCICRS_010890-T1	89.5	206	https://www.orthodb.org/v10?query=271781at4751	CTLH, C-terminal LisH motif
+271850at4751	Complete	MCICRS_010935-T1	118.5	142	https://www.orthodb.org/v10?query=271850at4751	N-acetylglucosaminyl transferase component
+272081at4751	Missing
+272711at4751	Missing
+273469at4751	Fragmented	MCICRS_029045-T1	91.4	123	https://www.orthodb.org/v10?query=273469at4751	tRNA (Adenine(58)-N(1))-methyltransferase non-catalytic subunit trm6
+274828at4751	Fragmented	MCICRS_017928-T1	182.8	226	https://www.orthodb.org/v10?query=274828at4751	GPI-anchored wall transfer protein
+276205at4751	Missing
+278643at4751	Complete	MCICRS_012049-T1	154.9	316	https://www.orthodb.org/v10?query=278643at4751	Phosphatidylinositol-glycan biosynthesis class S protein
+279020at4751	Complete	MCICRS_006827-T1	182.7	191	https://www.orthodb.org/v10?query=279020at4751	alpha-L RNA-binding motif-containing protein
+280937at4751	Fragmented	MCICRS_012863-T1	120.9	78	https://www.orthodb.org/v10?query=280937at4751	S-methyl-5'-thioadenosine phosphorylase
+281299at4751	Missing
+281726at4751	Missing
+281920at4751	Missing
+282059at4751	Missing
+282964at4751	Missing
+283177at4751	Fragmented	MCICRS_030571-T1	29.6	41	https://www.orthodb.org/v10?query=283177at4751	adenosylmethionine decarboxylase
+284127at4751	Complete	MCICRS_023115-T1	473.4	298	https://www.orthodb.org/v10?query=284127at4751	S-adenosylmethionine synthase
+284176at4751	Missing
+284287at4751	Missing
+284377at4751	Missing
+285254at4751	Duplicated	MCICRS_013721-T1	230.6	228	https://www.orthodb.org/v10?query=285254at4751	Glutamyl-tRNA synthetase
+285254at4751	Duplicated	MCICRS_005656-T1	230.5	228	https://www.orthodb.org/v10?query=285254at4751	Glutamyl-tRNA synthetase
+285254at4751	Duplicated	MCICRS_001665-T1	229.8	228	https://www.orthodb.org/v10?query=285254at4751	Glutamyl-tRNA synthetase
+285477at4751	Missing
+285977at4751	Complete	MCICRS_014091-T1	115.6	201	https://www.orthodb.org/v10?query=285977at4751	Mitochondrial import inner membrane translocase subunit tim54
+289666at4751	Missing
+289686at4751	Missing
+290314at4751	Complete	MCICRS_024328-T1	330.7	246	https://www.orthodb.org/v10?query=290314at4751	Ribosomal protein L4/L1e
+290471at4751	Fragmented	MCICRS_026886-T1	111.8	113	https://www.orthodb.org/v10?query=290471at4751	Rmd5
+291828at4751	Complete	MCICRS_008885-T1	110.5	178	https://www.orthodb.org/v10?query=291828at4751	Protein phosphatase methylesterase 1
+292336at4751	Complete	MCICRS_021977-T1	300.5	325	https://www.orthodb.org/v10?query=292336at4751	Glycylpeptide N-tetradecanoyltransferase
+292418at4751	Complete	MCICRS_017913-T1	630.6	438	https://www.orthodb.org/v10?query=292418at4751	Pyruvate kinase
+293405at4751	Missing
+295692at4751	Missing
+295937at4751	Complete	MCICRS_012878-T1	232.9	171	https://www.orthodb.org/v10?query=295937at4751	KRR1 small subunit processome component
+296024at4751	Missing
+296643at4751	Complete	MCICRS_018531-T1	118.7	164	https://www.orthodb.org/v10?query=296643at4751	Ribosomal protein S5 domain 2-type fold
+297145at4751	Complete	MCICRS_027441-T1	108.0	149	https://www.orthodb.org/v10?query=297145at4751	TRAUB-domain-containing protein
+297671at4751	Duplicated	MCICRS_007952-T1	232.9	221	https://www.orthodb.org/v10?query=297671at4751	Tyrosine--tRNA ligase
+297671at4751	Duplicated	MCICRS_022734-T1	220.0	216	https://www.orthodb.org/v10?query=297671at4751	Tyrosine--tRNA ligase
+298335at4751	Missing
+298379at4751	Duplicated	MCICRS_022141-T1	76.1	108	https://www.orthodb.org/v10?query=298379at4751	Ubiquinone biosynthesis O-methyltransferase, mitochondrial
+298379at4751	Duplicated	MCICRS_028768-T1	65.1	134	https://www.orthodb.org/v10?query=298379at4751	Ubiquinone biosynthesis O-methyltransferase, mitochondrial
+299054at4751	Complete	MCICRS_029140-T1	167.1	202	https://www.orthodb.org/v10?query=299054at4751	SNARE
+299330at4751	Missing
+299509at4751	Missing
+299559at4751	Missing
+299583at4751	Complete	MCICRS_025230-T1	105.5	99	https://www.orthodb.org/v10?query=299583at4751	Gtr1/RagA G protein
+299611at4751	Missing
+300016at4751	Complete	MCICRS_020684-T1	381.6	228	https://www.orthodb.org/v10?query=300016at4751	26S proteasome non-ATPase regulatory subunit 14
+300216at4751	Complete	MCICRS_021256-T1	350.4	302	https://www.orthodb.org/v10?query=300216at4751	Arginine biosynthesis bifunctional protein ArgJ, mitochondrial
+302127at4751	Complete	MCICRS_030327-T1	249.0	288	https://www.orthodb.org/v10?query=302127at4751	Integral membrane protein
+304341at4751	Duplicated	MCICRS_023232-T1	185.9	190	https://www.orthodb.org/v10?query=304341at4751	2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial
+304341at4751	Duplicated	MCICRS_003793-T1	173.9	196	https://www.orthodb.org/v10?query=304341at4751	2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial
+304341at4751	Duplicated	MCICRS_014650-T1	172.6	185	https://www.orthodb.org/v10?query=304341at4751	2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial
+304453at4751	Complete	MCICRS_021743-T1	123.9	191	https://www.orthodb.org/v10?query=304453at4751	V-type proton ATPase subunit C
+304547at4751	Fragmented	MCICRS_016367-T1	16.5	59	https://www.orthodb.org/v10?query=304547at4751	Ribosome biogenesis protein NOP53
+304733at4751	Missing
+305061at4751	Missing
+306594at4751	Missing
+307144at4751	Fragmented	MCICRS_019186-T1	173.3	278	https://www.orthodb.org/v10?query=307144at4751	Rab-GTPase-TBC domain
+308236at4751	Complete	MCICRS_018060-T1	343.1	458	https://www.orthodb.org/v10?query=308236at4751	Sda1
+308816at4751	Fragmented	MCICRS_028828-T1	373.8	299	https://www.orthodb.org/v10?query=308816at4751	Splicing factor 3a subunit 3
+310718at4751	Complete	MCICRS_028249-T1	208.0	493	https://www.orthodb.org/v10?query=310718at4751	Exocyst complex component Sec6
+310891at4751	Fragmented	MCICRS_021821-T1	90.8	250	https://www.orthodb.org/v10?query=310891at4751	Pre-mRNA-splicing factor cef1
+311048at4751	Complete	MCICRS_025660-T1	181.1	185	https://www.orthodb.org/v10?query=311048at4751	Deoxyhypusine hydroxylase
+311254at4751	Complete	MCICRS_023401-T1	194.8	372	https://www.orthodb.org/v10?query=311254at4751	Nuclear segregation protein
+312080at4751	Missing
+312209at4751	Missing
+312950at4751	Missing
+315551at4751	Missing
+315639at4751	Missing
+315799at4751	Missing
+315802at4751	Missing
+316254at4751	Fragmented	MCICRS_019689-T1	75.8	69	https://www.orthodb.org/v10?query=316254at4751	glycosyltransferase family 50 protein
+316920at4751	Fragmented	MCICRS_025278-T1	70.0	76	https://www.orthodb.org/v10?query=316920at4751	Lysophospholipid acyltransferase
+317276at4751	Missing
+317335at4751	Duplicated	MCICRS_007012-T1	135.2	233	https://www.orthodb.org/v10?query=317335at4751	Anthranilate phosphoribosyltransferase
+317335at4751	Duplicated	MCICRS_029593-T1	132.6	235	https://www.orthodb.org/v10?query=317335at4751	Anthranilate phosphoribosyltransferase
+317335at4751	Duplicated	MCICRS_024818-T1	125.6	235	https://www.orthodb.org/v10?query=317335at4751	Anthranilate phosphoribosyltransferase
+317335at4751	Duplicated	MCICRS_005110-T1	119.9	233	https://www.orthodb.org/v10?query=317335at4751	Anthranilate phosphoribosyltransferase
+319121at4751	Fragmented	MCICRS_026016-T1	130.5	162	https://www.orthodb.org/v10?query=319121at4751	Zinc finger, UBR-type
+320163at4751	Missing
+320638at4751	Complete	MCICRS_021175-T1	700.3	466	https://www.orthodb.org/v10?query=320638at4751	Nucleotide-diphospho-sugar transferase
+320777at4751	Missing
+320782at4751	Fragmented	MCICRS_016001-T1	66.7	216	https://www.orthodb.org/v10?query=320782at4751	RNA polymerase I associated factor, A49-like protein
+321416at4751	Complete	MCICRS_026476-T1	676.0	591	https://www.orthodb.org/v10?query=321416at4751	Pre-mRNA-splicing factor syf1
+321585at4751	Complete	MCICRS_022624-T1	253.1	208	https://www.orthodb.org/v10?query=321585at4751	U3 small nucleolar ribonucleoprotein IMP4
+321728at4751	Complete	MCICRS_023888-T1	253.3	185	https://www.orthodb.org/v10?query=321728at4751	GPI-anchor transamidase
+322254at4751	Missing
+322267at4751	Missing
+323327at4751	Missing
+324442at4751	Complete	MCICRS_023310-T1	65.5	75	https://www.orthodb.org/v10?query=324442at4751	Cell division control protein 73, C-terminal
+325992at4751	Missing
+326512at4751	Missing
+326649at4751	Duplicated	MCICRS_006057-T1	68.7	356	https://www.orthodb.org/v10?query=326649at4751	Phosphoacetylglucosamine mutase
+326649at4751	Duplicated	MCICRS_013871-T1	61.2	336	https://www.orthodb.org/v10?query=326649at4751	Phosphoacetylglucosamine mutase
+327672at4751	Complete	MCICRS_023036-T1	146.3	171	https://www.orthodb.org/v10?query=327672at4751	CDK-activating kinase assembly factor MAT1
+327748at4751	Missing
+327884at4751	Missing
+329067at4751	Missing
+330533at4751	Missing
+330551at4751	Missing
+330629at4751	Missing
+330815at4751	Duplicated	MCICRS_012443-T1	83.9	384	https://www.orthodb.org/v10?query=330815at4751	Translation initiation factor 2, alpha subunit
+330815at4751	Duplicated	MCICRS_003128-T1	81.2	396	https://www.orthodb.org/v10?query=330815at4751	Translation initiation factor 2, alpha subunit
+330815at4751	Duplicated	MCICRS_008612-T1	76.8	338	https://www.orthodb.org/v10?query=330815at4751	Translation initiation factor 2, alpha subunit
+330949at4751	Missing
+331022at4751	Complete	MCICRS_025716-T1	124.6	125	https://www.orthodb.org/v10?query=331022at4751	P-loop containing nucleoside triphosphate hydrolase protein
+331763at4751	Complete	MCICRS_030698-T1	382.3	201	https://www.orthodb.org/v10?query=331763at4751	Ribosomal protein S5
+332006at4751	Fragmented	MCICRS_009332-T1	109.6	102	https://www.orthodb.org/v10?query=332006at4751	SURF1-like protein
+332036at4751	Missing
+332416at4751	Missing
+332876at4751	Complete	MCICRS_022404-T1	435.8	395	https://www.orthodb.org/v10?query=332876at4751	WD40/YVTN repeat-like-containing domain superfamily
+332891at4751	Fragmented	MCICRS_012550-T1	213.6	136	https://www.orthodb.org/v10?query=332891at4751	Glycerol
+334424at4751	Complete	MCICRS_010922-T1	259.5	167	https://www.orthodb.org/v10?query=334424at4751	rRNA adenine N(6)-methyltransferase
+335237at4751	Complete	MCICRS_013652-T1	203.5	221	https://www.orthodb.org/v10?query=335237at4751	P-loop containing nucleoside triphosphate hydrolase protein
+335719at4751	Complete	MCICRS_026526-T1	324.8	239	https://www.orthodb.org/v10?query=335719at4751	mitochondrial carrier
+336181at4751	Fragmented	MCICRS_012884-T1	152.1	158	https://www.orthodb.org/v10?query=336181at4751	Adenosine kinase
+336187at4751	Complete	MCICRS_007927-T1	68.3	111	https://www.orthodb.org/v10?query=336187at4751	Ubiquitin-conjugating enzyme/RWD-like protein
+337150at4751	Missing
+337917at4751	Fragmented	MCICRS_029786-T1	128.7	109	https://www.orthodb.org/v10?query=337917at4751	ribosomal protein S15
+338301at4751	Missing
+338808at4751	Fragmented	MCICRS_023009-T1	20.5	97	https://www.orthodb.org/v10?query=338808at4751	Golgi phosphoprotein 3-like
+339525at4751	Duplicated	MCICRS_010769-T1	167.6	231	https://www.orthodb.org/v10?query=339525at4751	Aminomethyltransferase
+339525at4751	Duplicated	MCICRS_004672-T1	162.6	203	https://www.orthodb.org/v10?query=339525at4751	Aminomethyltransferase
+339525at4751	Duplicated	MCICRS_023156-T1	142.8	217	https://www.orthodb.org/v10?query=339525at4751	Aminomethyltransferase
+342642at4751	Duplicated	MCICRS_024241-T1	180.2	267	https://www.orthodb.org/v10?query=342642at4751	Dihydroorotase
+342642at4751	Duplicated	MCICRS_018663-T1	180.1	267	https://www.orthodb.org/v10?query=342642at4751	Dihydroorotase
+342642at4751	Duplicated	MCICRS_017415-T1	156.7	268	https://www.orthodb.org/v10?query=342642at4751	Dihydroorotase
+342642at4751	Duplicated	MCICRS_018332-T1	156.0	267	https://www.orthodb.org/v10?query=342642at4751	Dihydroorotase
+343196at4751	Missing
+343603at4751	Missing
+343623at4751	Missing
+343717at4751	Missing
+344553at4751	Missing
+345661at4751	Missing
+348020at4751	Duplicated	MCICRS_025150-T1	81.1	133	https://www.orthodb.org/v10?query=348020at4751	Formyl transferase, N-terminal
+348020at4751	Duplicated	MCICRS_014094-T1	69.5	104	https://www.orthodb.org/v10?query=348020at4751	Formyl transferase, N-terminal
+348111at4751	Complete	MCICRS_027399-T1	306.8	250	https://www.orthodb.org/v10?query=348111at4751	Ribosomal protein L2
+349264at4751	Missing
+350840at4751	Missing
+351351at4751	Missing
+351482at4751	Complete	MCICRS_015356-T1	427.1	236	https://www.orthodb.org/v10?query=351482at4751	Prohibitin-2
+351646at4751	Missing
+351651at4751	Fragmented	MCICRS_024321-T1	172.3	183	https://www.orthodb.org/v10?query=351651at4751	Chitobiosyldiphosphodolichol beta-mannosyltransferase
+351849at4751	Missing
+351858at4751	Fragmented	MCICRS_018010-T1	288.4	143	https://www.orthodb.org/v10?query=351858at4751	Eukaryotic translation initiation factor 6
+351906at4751	Complete	MCICRS_016231-T1	158.1	151	https://www.orthodb.org/v10?query=351906at4751	ribosomal protein L15
+352224at4751	Missing
+352999at4751	Complete	MCICRS_027155-T1	264.4	135	https://www.orthodb.org/v10?query=352999at4751	Small GTPase superfamily
+353685at4751	Complete	MCICRS_019575-T1	197.6	152	https://www.orthodb.org/v10?query=353685at4751	ER membrane protein complex subunit 3
+353762at4751	Missing
+353991at4751	Complete	MCICRS_027576-T1	355.1	284	https://www.orthodb.org/v10?query=353991at4751	DnaJ domain
+354679at4751	Complete	MCICRS_010612-T1	291.8	227	https://www.orthodb.org/v10?query=354679at4751	Cell differentiation protein rcd1
+354739at4751	Missing
+354778at4751	Complete	MCICRS_000379-T1	119.7	272	https://www.orthodb.org/v10?query=354778at4751	Diphosphomevalonate decarboxylase
+354913at4751	Missing
+355454at4751	Complete	MCICRS_029728-T1	119.7	252	https://www.orthodb.org/v10?query=355454at4751	Iron hydrogenase
+355525at4751	Fragmented	MCICRS_013182-T1	239.9	221	https://www.orthodb.org/v10?query=355525at4751	Leucine-rich repeat
+355781at4751	Complete	MCICRS_020685-T1	91.0	124	https://www.orthodb.org/v10?query=355781at4751	GTP cyclohydrolase 1 type 2/Nif3
+356079at4751	Missing
+356691at4751	Complete	MCICRS_026110-T1	250.2	264	https://www.orthodb.org/v10?query=356691at4751	Peroxisome biogenesis factor 1
+356743at4751	Fragmented	MCICRS_023087-T1	155.3	104	https://www.orthodb.org/v10?query=356743at4751	Ribosomal protein
+357182at4751	Missing
+357584at4751	Fragmented	MCICRS_014988-T1	121.0	121	https://www.orthodb.org/v10?query=357584at4751	Metal-dependent protein hydrolase
+358012at4751	Missing
+358118at4751	Complete	MCICRS_026665-T1	345.8	299	https://www.orthodb.org/v10?query=358118at4751	Splicing factor 3B subunit 2
+359271at4751	Complete	MCICRS_016082-T1	246.6	275	https://www.orthodb.org/v10?query=359271at4751	Membrane protein TMS1
+359482at4751	Missing
+359627at4751	Missing
+360800at4751	Missing
+361877at4751	Missing
+362218at4751	Missing
+362250at4751	Fragmented	MCICRS_023217-T1	129.4	118	https://www.orthodb.org/v10?query=362250at4751	Bax inhibitor 1-related
+362322at4751	Missing
+362601at4751	Fragmented	MCICRS_021748-T1	107.8	234	https://www.orthodb.org/v10?query=362601at4751	Oxoglutarate/iron-dependent dioxygenase
+363593at4751	Missing
+364123at4751	Missing
+364284at4751	Duplicated	MCICRS_002571-T1	329.3	335	https://www.orthodb.org/v10?query=364284at4751	Amidase
+364284at4751	Duplicated	MCICRS_018151-T1	325.9	335	https://www.orthodb.org/v10?query=364284at4751	Amidase
+365270at4751	Missing
+366595at4751	Duplicated	MCICRS_022376-T1	38.2	170	https://www.orthodb.org/v10?query=366595at4751	Dolichol-phosphate mannosyltransferase
+366595at4751	Duplicated	MCICRS_003169-T1	33.5	145	https://www.orthodb.org/v10?query=366595at4751	Dolichol-phosphate mannosyltransferase
+366597at4751	Duplicated	MCICRS_007141-T1	131.7	210	https://www.orthodb.org/v10?query=366597at4751	Ribosomal protein
+366597at4751	Duplicated	MCICRS_006178-T1	130.1	181	https://www.orthodb.org/v10?query=366597at4751	Ribosomal protein
+366635at4751	Missing
+367778at4751	Duplicated	MCICRS_020577-T1	103.0	168	https://www.orthodb.org/v10?query=367778at4751	Acetolactate synthase
+367778at4751	Duplicated	MCICRS_002768-T1	101.4	171	https://www.orthodb.org/v10?query=367778at4751	Acetolactate synthase
+368706at4751	Fragmented	MCICRS_024635-T1	132.2	102	https://www.orthodb.org/v10?query=368706at4751	Proteasome subunit beta
+369435at4751	Complete	MCICRS_021751-T1	192.8	182	https://www.orthodb.org/v10?query=369435at4751	Triosephosphate isomerase
+370505at4751	Missing
+370952at4751	Complete	MCICRS_005137-T1	57.7	169	https://www.orthodb.org/v10?query=370952at4751	Ribosomal protein S3
+371481at4751	Missing
+371674at4751	Missing
+371862at4751	Missing
+372381at4751	Missing
+372510at4751	Complete	MCICRS_025563-T1	156.2	186	https://www.orthodb.org/v10?query=372510at4751	transcription factor Tfb4
+372972at4751	Missing
+374350at4751	Complete	MCICRS_021173-T1	190.3	153	https://www.orthodb.org/v10?query=374350at4751	phosphatidylserine decarboxylase
+374548at4751	Fragmented	MCICRS_017534-T1	95.4	77	https://www.orthodb.org/v10?query=374548at4751	SGS domain
+376255at4751	Missing
+376442at4751	Missing
+376539at4751	Missing
+376586at4751	Fragmented	MCICRS_014955-T1	64.6	93	https://www.orthodb.org/v10?query=376586at4751	Deoxycytidylate deaminase
+377787at4751	Complete	MCICRS_026084-T1	262.7	162	https://www.orthodb.org/v10?query=377787at4751	Ribosomal protein S7 domain
+378256at4751	Missing
+378281at4751	Complete	MCICRS_001960-T1	146.0	168	https://www.orthodb.org/v10?query=378281at4751	Ribosomal protein L3
+378295at4751	Missing
+378376at4751	Complete	MCICRS_018508-T1	76.7	208	https://www.orthodb.org/v10?query=378376at4751	DUF1682-domain-containing protein
+378430at4751	Complete	MCICRS_028059-T1	332.0	252	https://www.orthodb.org/v10?query=378430at4751	Serine/threonine-protein kinase RIO1
+378436at4751	Fragmented	MCICRS_016161-T1	73.3	249	https://www.orthodb.org/v10?query=378436at4751	Signal recognition particle subunit SRP68
+379525at4751	Missing
+382001at4751	Fragmented	MCICRS_009523-T1	101.3	113	https://www.orthodb.org/v10?query=382001at4751	syntaxin 5
+383007at4751	Missing
+384156at4751	Fragmented	MCICRS_011202-T1	48.9	127	https://www.orthodb.org/v10?query=384156at4751	ATP synthase subunit gamma
+384315at4751	Missing
+385139at4751	Complete	MCICRS_023931-T1	230.8	171	https://www.orthodb.org/v10?query=385139at4751	Proteasome subunit beta type
+385343at4751	Complete	MCICRS_017675-T1	206.0	172	https://www.orthodb.org/v10?query=385343at4751	GTP cyclohydrolase II
+385564at4751	Missing
+385971at4751	Missing
+386220at4751	Fragmented	MCICRS_030752-T1	183.5	121	https://www.orthodb.org/v10?query=386220at4751	Pre-rRNA-processing protein PNO1
+386245at4751	Complete	MCICRS_029505-T1	126.8	214	https://www.orthodb.org/v10?query=386245at4751	Origin recognition complex subunit 2
+387347at4751	Complete	MCICRS_026562-T1	128.2	97	https://www.orthodb.org/v10?query=387347at4751	Exosome complex component CSL4
+387759at4751	Missing
+388229at4751	Fragmented	MCICRS_008710-T1	125.5	82	https://www.orthodb.org/v10?query=388229at4751	RNA polymerase, Rpb5, N-terminal
+389034at4751	Complete	MCICRS_022819-T1	212.0	171	https://www.orthodb.org/v10?query=389034at4751	rRNA 2'-O-methyltransferase fibrillarin
+389547at4751	Complete	MCICRS_018242-T1	114.3	88	https://www.orthodb.org/v10?query=389547at4751	Pre-mRNA-splicing factor slt11
+389565at4751	Complete	MCICRS_018419-T1	347.9	193	https://www.orthodb.org/v10?query=389565at4751	Cytochrome c-like domain
+390518at4751	Missing
+391384at4751	Missing
+392558at4751	Missing
+393440at4751	Missing
+393996at4751	Missing
+396097at4751	Missing
+396330at4751	Missing
+396842at4751	Complete	MCICRS_021982-T1	224.4	206	https://www.orthodb.org/v10?query=396842at4751	18S rRNA (Guanine(1575)-N(7))-methyltransferase
+397465at4751	Missing
+398519at4751	Fragmented	MCICRS_024020-T1	41.0	66	https://www.orthodb.org/v10?query=398519at4751	chromatin associated protein KTI12
+398592at4751	Complete	MCICRS_019601-T1	287.3	351	https://www.orthodb.org/v10?query=398592at4751	NUC153
+398882at4751	Missing
+398968at4751	Missing
+399376at4751	Missing
+399413at4751	Missing
+399810at4751	Missing
+401387at4751	Fragmented	MCICRS_008695-T1	175.3	123	https://www.orthodb.org/v10?query=401387at4751	phosphopantothenate-cysteine ligase
+402005at4751	Missing
+402255at4751	Missing
+403079at4751	Fragmented	MCICRS_018127-T1	191.0	120	https://www.orthodb.org/v10?query=403079at4751	Vacuolar ATP synthase subunit D
+404050at4751	Missing
+405669at4751	Missing
+405898at4751	Missing
+406240at4751	Missing
+406403at4751	Duplicated	MCICRS_002568-T1	89.9	164	https://www.orthodb.org/v10?query=406403at4751	septum formation protein Maf
+406403at4751	Duplicated	MCICRS_014132-T1	87.8	151	https://www.orthodb.org/v10?query=406403at4751	septum formation protein Maf
+406403at4751	Duplicated	MCICRS_018148-T1	78.6	135	https://www.orthodb.org/v10?query=406403at4751	septum formation protein Maf
+406434at4751	Fragmented	MCICRS_013661-T1	54.0	88	https://www.orthodb.org/v10?query=406434at4751	EB1, C-terminal
+406793at4751	Missing
+407348at4751	Missing
+408391at4751	Fragmented	MCICRS_024741-T1	46.9	52	https://www.orthodb.org/v10?query=408391at4751	Translocation protein sec66
+408419at4751	Missing
+409761at4751	Fragmented	MCICRS_023298-T1	16.9	84	https://www.orthodb.org/v10?query=409761at4751	Coatomer subunit epsilon
+410458at4751	Fragmented	MCICRS_021299-T1	91.1	57	https://www.orthodb.org/v10?query=410458at4751	RNA-binding S4 domain
+410782at4751	Missing
+410986at4751	Missing
+410991at4751	Missing
+411130at4751	Fragmented	MCICRS_030506-T1	110.2	89	https://www.orthodb.org/v10?query=411130at4751	Snf7 family
+411471at4751	Complete	MCICRS_014070-T1	193.5	264	https://www.orthodb.org/v10?query=411471at4751	phosphatidylinositol glycan, class U
+411518at4751	Complete	MCICRS_012995-T1	157.3	243	https://www.orthodb.org/v10?query=411518at4751	Low-temperature viability protein ltv1
+411677at4751	Fragmented	MCICRS_029354-T1	49.1	43	https://www.orthodb.org/v10?query=411677at4751	Rho GDP-dissociation inhibitor
+411754at4751	Missing
+411919at4751	Fragmented	MCICRS_017908-T1	28.8	112	https://www.orthodb.org/v10?query=411919at4751	Endoplasmic reticulum vesicle transporter, C-terminal
+412006at4751	Fragmented	MCICRS_027046-T1	107.4	63	https://www.orthodb.org/v10?query=412006at4751	60S ribosome subunit biogenesis protein NIP7
+413850at4751	Fragmented	MCICRS_014040-T1	93.8	109	https://www.orthodb.org/v10?query=413850at4751	mitochondrial glyco protein
+414474at4751	Fragmented	MCICRS_016050-T1	71.5	79	https://www.orthodb.org/v10?query=414474at4751	Golgi SNAP receptor complex member 1
+414508at4751	Missing
+416039at4751	Fragmented	MCICRS_029115-T1	49.2	44	https://www.orthodb.org/v10?query=416039at4751	Presequence translocated-associated motor subunit pam17
+416914at4751	Missing
+417109at4751	Missing
+417470at4751	Complete	MCICRS_030269-T1	112.8	303	https://www.orthodb.org/v10?query=417470at4751	Exocyst complex component EXO84
+417746at4751	Complete	MCICRS_010279-T1	215.0	223	https://www.orthodb.org/v10?query=417746at4751	Zinc finger, CCCH-type
+418242at4751	Missing
+418644at4751	Missing
+418680at4751	Missing
+419048at4751	Missing
+419200at4751	Missing
+419232at4751	Complete	MCICRS_015063-T1	166.9	193	https://www.orthodb.org/v10?query=419232at4751	Nse4/EID family
+419667at4751	Complete	MCICRS_020588-T1	51.1	125	https://www.orthodb.org/v10?query=419667at4751	Peptidyl-prolyl cis-trans isomerase
+419868at4751	Missing
+420414at4751	Missing
+420527at4751	Fragmented	MCICRS_021713-T1	21.8	70	https://www.orthodb.org/v10?query=420527at4751	SEP domain
+421097at4751	Fragmented	MCICRS_029629-T1	111.3	82	https://www.orthodb.org/v10?query=421097at4751	Acyl-CoA N-acyltransferase
+421687at4751	Missing
+422151at4751	Complete	MCICRS_026998-T1	219.4	133	https://www.orthodb.org/v10?query=422151at4751	Ubiquitin-conjugating enzyme E2 2
+422622at4751	Missing
+422764at4751	Missing
+423166at4751	Missing
+423206at4751	Missing
+427250at4751	Missing
+428342at4751	Missing
+428569at4751	Fragmented	MCICRS_029233-T1	58.5	59	https://www.orthodb.org/v10?query=428569at4751	Vacuolar protein sorting-associated protein 29
+428774at4751	Complete	MCICRS_024504-T1	180.5	170	https://www.orthodb.org/v10?query=428774at4751	Proteasome subunit beta type
+428984at4751	Fragmented	MCICRS_024459-T1	242.4	275	https://www.orthodb.org/v10?query=428984at4751	BRCT domain
+429332at4751	Missing
+429862at4751	Missing
+430556at4751	Missing
+431195at4751	Missing
+431607at4751	Missing
+432952at4751	Missing
+433181at4751	Missing
+433384at4751	Missing
+434428at4751	Complete	MCICRS_015178-T1	247.1	152	https://www.orthodb.org/v10?query=434428at4751	Actin-related protein 2/3 complex subunit 4
+434500at4751	Missing
+434984at4751	Missing
+435317at4751	Missing
+435471at4751	Missing
+435767at4751	Fragmented	MCICRS_017245-T1	117.6	96	https://www.orthodb.org/v10?query=435767at4751	Ribosomal RNA small subunit methyltransferase NEP1
+436872at4751	Complete	MCICRS_015827-T1	140.6	117	https://www.orthodb.org/v10?query=436872at4751	Actin-related protein 2/3 complex subunit 3
+437914at4751	Fragmented	MCICRS_015041-T1	181.7	109	https://www.orthodb.org/v10?query=437914at4751	Zinc finger C2H2 superfamily
+438274at4751	Fragmented	MCICRS_015347-T1	45.4	55	https://www.orthodb.org/v10?query=438274at4751	ERF1 methyltransferase catalytic subunit MTQ2
+438731at4751	Missing
+438861at4751	Missing
+439490at4751	Complete	MCICRS_013183-T1	119.2	109	https://www.orthodb.org/v10?query=439490at4751	GrpE nucleotide exchange factor
+440401at4751	Missing
+441586at4751	Missing
+443595at4751	Missing
+444174at4751	Complete	MCICRS_022392-T1	67.6	57	https://www.orthodb.org/v10?query=444174at4751	Cell cycle control protein cwf14
+444399at4751	Complete	MCICRS_015998-T1	88.5	89	https://www.orthodb.org/v10?query=444399at4751	ribosomal protein L14
+444602at4751	Fragmented	MCICRS_025233-T1	61.2	71	https://www.orthodb.org/v10?query=444602at4751	ER membrane protein complex subunit 4
+444892at4751	Missing
+445210at4751	Complete	MCICRS_010587-T1	48.6	22	https://www.orthodb.org/v10?query=445210at4751	Transcription factor IIA, alpha/beta subunit
+445401at4751	Missing
+445954at4751	Missing
+446124at4751	Duplicated	MCICRS_006179-T1	70.7	98	https://www.orthodb.org/v10?query=446124at4751	ribosomal protein L11
+446124at4751	Duplicated	MCICRS_005129-T1	66.0	96	https://www.orthodb.org/v10?query=446124at4751	ribosomal protein L11
+446124at4751	Duplicated	MCICRS_009249-T1	66.0	96	https://www.orthodb.org/v10?query=446124at4751	ribosomal protein L11
+447112at4751	Missing
+447424at4751	Missing
+449717at4751	Complete	MCICRS_020452-T1	127.5	268	https://www.orthodb.org/v10?query=449717at4751	Protein YIP
+449803at4751	Duplicated	MCICRS_016492-T1	117.2	169	https://www.orthodb.org/v10?query=449803at4751	Dephospho-CoA kinase
+449803at4751	Duplicated	MCICRS_002777-T1	112.2	183	https://www.orthodb.org/v10?query=449803at4751	Dephospho-CoA kinase
+451032at4751	Missing
+451701at4751	Fragmented	MCICRS_028691-T1	80.7	142	https://www.orthodb.org/v10?query=451701at4751	Mitochondrial ATPase complex subunit ATP10
+451811at4751	Missing
+451849at4751	Fragmented	MCICRS_018398-T1	40.8	61	https://www.orthodb.org/v10?query=451849at4751	Pre-mRNA-splicing factor SLU7
+452573at4751	Missing
+452692at4751	Missing
+452759at4751	Missing
+452947at4751	Missing
+453693at4751	Complete	MCICRS_022555-T1	180.3	142	https://www.orthodb.org/v10?query=453693at4751	Ribosomal protein L23/L15e core domain superfamily
+453909at4751	Missing
+454746at4751	Missing
+454840at4751	Missing
+455110at4751	Duplicated	MCICRS_014155-T1	73.2	63	https://www.orthodb.org/v10?query=455110at4751	Iron-sulfur cluster assembly protein
+455110at4751	Duplicated	MCICRS_006470-T1	72.8	63	https://www.orthodb.org/v10?query=455110at4751	Iron-sulfur cluster assembly protein
+456963at4751	Complete	MCICRS_021914-T1	62.8	95	https://www.orthodb.org/v10?query=456963at4751	Multiprotein-bridging factor 1
+457161at4751	Missing
+457544at4751	Missing
+457951at4751	Duplicated	MCICRS_006526-T1	99.1	112	https://www.orthodb.org/v10?query=457951at4751	ribosomal protein L13
+457951at4751	Duplicated	MCICRS_024754-T1	99.0	112	https://www.orthodb.org/v10?query=457951at4751	ribosomal protein L13
+457951at4751	Duplicated	MCICRS_013849-T1	96.2	113	https://www.orthodb.org/v10?query=457951at4751	ribosomal protein L13
+457951at4751	Duplicated	MCICRS_016582-T1	95.5	113	https://www.orthodb.org/v10?query=457951at4751	ribosomal protein L13
+457951at4751	Duplicated	MCICRS_018158-T1	88.0	108	https://www.orthodb.org/v10?query=457951at4751	ribosomal protein L13
+458554at4751	Missing
+458980at4751	Missing
+459844at4751	Missing
+461238at4751	Missing
+461919at4751	Fragmented	MCICRS_020260-T1	71.4	85	https://www.orthodb.org/v10?query=461919at4751	Peroxisomal biogenesis factor 2
+464711at4751	Missing
+464772at4751	Complete	MCICRS_023322-T1	223.9	176	https://www.orthodb.org/v10?query=464772at4751	DUF572-domain-containing protein
+464897at4751	Missing
+465849at4751	Duplicated	MCICRS_000236-T1	144.0	91	https://www.orthodb.org/v10?query=465849at4751	ribosomal protein S12
+465849at4751	Duplicated	MCICRS_001955-T1	133.3	91	https://www.orthodb.org/v10?query=465849at4751	ribosomal protein S12
+465849at4751	Duplicated	MCICRS_005133-T1	133.3	91	https://www.orthodb.org/v10?query=465849at4751	ribosomal protein S12
+465849at4751	Duplicated	MCICRS_009245-T1	133.3	91	https://www.orthodb.org/v10?query=465849at4751	ribosomal protein S12
+467311at4751	Missing
+467847at4751	Missing
+467959at4751	Complete	MCICRS_020003-T1	99.8	78	https://www.orthodb.org/v10?query=467959at4751	Pre-mRNA-splicing factor ISY1
+468195at4751	Complete	MCICRS_017922-T1	50.8	53	https://www.orthodb.org/v10?query=468195at4751	Signal peptidase subunit 3
+468224at4751	Missing
+468408at4751	Complete	MCICRS_028394-T1	238.8	328	https://www.orthodb.org/v10?query=468408at4751	Vacuolar fusion protein MON1
+469452at4751	Missing
+470813at4751	Missing
+471205at4751	Missing
+473814at4751	Missing
+474125at4751	Missing
+474320at4751	Missing
+474374at4751	Complete	MCICRS_023904-T1	113.7	68	https://www.orthodb.org/v10?query=474374at4751	Ribosomal protein S10
+477057at4751	Missing
+477122at4751	Missing
+481052at4751	Missing
+482337at4751	Missing
+483049at4751	Complete	MCICRS_010586-T1	76.9	82	https://www.orthodb.org/v10?query=483049at4751	Chromatin-remodeling complex subunit ies6
+483370at4751	Duplicated	MCICRS_013865-T1	47.7	60	https://www.orthodb.org/v10?query=483370at4751	Ribosomal protein L27
+483370at4751	Duplicated	MCICRS_016564-T1	46.9	60	https://www.orthodb.org/v10?query=483370at4751	Ribosomal protein L27
+483370at4751	Duplicated	MCICRS_017750-T1	45.6	72	https://www.orthodb.org/v10?query=483370at4751	Ribosomal protein L27
+483370at4751	Duplicated	MCICRS_023266-T1	45.6	72	https://www.orthodb.org/v10?query=483370at4751	Ribosomal protein L27
+483370at4751	Duplicated	MCICRS_005276-T1	41.6	59	https://www.orthodb.org/v10?query=483370at4751	Ribosomal protein L27
+483390at4751	Missing
+484080at4751	Missing
+484323at4751	Missing
+484805at4751	Complete	MCICRS_029636-T1	92.1	214	https://www.orthodb.org/v10?query=484805at4751	Pre-mRNA-splicing factor syf2
+485650at4751	Complete	MCICRS_005368-T1	55.6	111	https://www.orthodb.org/v10?query=485650at4751	Ribosomal protein L7/L12
+485702at4751	Missing
+488348at4751	Missing
+488426at4751	Complete	MCICRS_016067-T1	81.9	175	https://www.orthodb.org/v10?query=488426at4751	Pre-mRNA-splicing factor cwc15
+488857at4751	Missing
+490662at4751	Missing
+490719at4751	Complete	MCICRS_015810-T1	105.8	120	https://www.orthodb.org/v10?query=490719at4751	thioredoxin-like protein
+492591at4751	Missing
+493358at4751	Missing
+494427at4751	Fragmented	MCICRS_018707-T1	91.8	58	https://www.orthodb.org/v10?query=494427at4751	Cytochrome c oxidase subunit 6, mitochondrial
+497024at4751	Missing
