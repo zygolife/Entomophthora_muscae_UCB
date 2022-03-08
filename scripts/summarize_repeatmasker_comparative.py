@@ -90,6 +90,7 @@ for fname in glob.glob(reportpath):
 
 
 header = sorted(header)
+header.insert(0,'TE_Fam')
 csvout.writerow(header)
 csvoutpct.writerow(header)
 
