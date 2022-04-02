@@ -37,38 +37,28 @@ Submit-block ::= {
         },
         {
           name name {
+            last "Kasson",
+            first "Matthew",
+            middle "",
+            initials "",
+            suffix "",
+            title ""
+          }
+        },
+        {
+          name name {
+            last "de Fine Licht",
+            first "Henrick",
+            middle "",
+            initials "H.",
+            suffix "",
+            title ""
+          }
+        },
+        {
+          name name {
             last "Lovett",
             first "Brian",
-            middle "",
-            initials "",
-            suffix "",
-            title ""
-          }
-        },
-        {
-          name name {
-            last "Lee",
-            first "Emily",
-            middle "",
-            initials "",
-            suffix "",
-            title ""
-          }
-        },
-        {
-          name name {
-            last "Macias",
-            first "Angie",
-            middle "",
-            initials "",
-            suffix "",
-            title ""
-          }
-        },
-        {
-          name name {
-            last "Hajek",
-            first "Ann",
             middle "",
             initials "",
             suffix "",
@@ -80,27 +70,17 @@ Submit-block ::= {
             last "de Bivort",
             first "Benjamin",
             middle "",
-            initials "",
+            initials "L.",
             suffix "",
             title ""
           }
         },
         {
           name name {
-            last "Kasson",
-            first "Matthew",
+            last "Eisen",
+            first "Michael",
             middle "",
-            initials "T.",
-            suffix "",
-            title ""
-          }
-        },
-        {
-          name name {
-            last "De Fine Licht",
-            first "Henrik",
-            middle "",
-            initials "H.",
+            initials "B.",
             suffix "",
             title ""
           }
@@ -147,38 +127,28 @@ Seqdesc ::= pub {
           },
           {
             name name {
+              last "Kasson",
+              first "Matthew",
+              middle "",
+              initials "",
+              suffix "",
+              title ""
+            }
+          },
+          {
+            name name {
+              last "de Fine Licht",
+              first "Henrick",
+              middle "",
+              initials "H.",
+              suffix "",
+              title ""
+            }
+          },
+          {
+            name name {
               last "Lovett",
               first "Brian",
-              middle "",
-              initials "",
-              suffix "",
-              title ""
-            }
-          },
-          {
-            name name {
-              last "Lee",
-              first "Emily",
-              middle "",
-              initials "",
-              suffix "",
-              title ""
-            }
-          },
-          {
-            name name {
-              last "Macias",
-              first "Angie",
-              middle "",
-              initials "",
-              suffix "",
-              title ""
-            }
-          },
-          {
-            name name {
-              last "Hajek",
-              first "Ann",
               middle "",
               initials "",
               suffix "",
@@ -190,27 +160,17 @@ Seqdesc ::= pub {
               last "de Bivort",
               first "Benjamin",
               middle "",
-              initials "",
+              initials "L.",
               suffix "",
               title ""
             }
           },
           {
             name name {
-              last "Kasson",
-              first "Matthew",
+              last "Eisen",
+              first "Michael",
               middle "",
-              initials "T.",
-              suffix "",
-              title ""
-            }
-          },
-          {
-            name name {
-              last "De Fine Licht",
-              first "Henrik",
-              middle "",
-              initials "H.",
+              initials "B.",
               suffix "",
               title ""
             }
