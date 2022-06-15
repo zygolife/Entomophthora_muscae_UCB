@@ -9,7 +9,7 @@ if [ -z $SLURM_JOB_ID ]; then
   SLURM_JOB_ID=$$
 fi
 module load RepeatMasker
-module load kent
+module load kent-tools
 module load workspace/scratch
 
 GENOMEDIR=$(realpath genomes)
