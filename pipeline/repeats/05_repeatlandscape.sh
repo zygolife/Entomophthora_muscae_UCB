@@ -1,6 +1,7 @@
 #!/bin/bash -l
 #SBATCH -p short -C ryzen --ntasks 2 --nodes 1 --mem 24G --out logs/repeatLandscape.%a.log -a 1-5
 
+hostname
 CPU=1
 if [ $SLURM_CPUS_ON_NODE ]; then
   CPU=$SLURM_CPUS_ON_NODE
@@ -68,7 +69,7 @@ do
     fi
     DIVSUM=$OUTDIR/${name}.divsum
     if [[ ! -s $DIVSUM || $DIVFILE -nt $DIVSUM ]]; then
-	calcDivergenceFromAlign.pl -s $DIVSUM $DIVFILE
+	./scripts/calcDivergenceFromAlign.pl -s $DIVSUM $DIVFILE
     fi
     ./scripts/createRepeatLandscape.pl -div $DIVSUM -twoBit $twoBit > $OUTDIR/${name}.landscape.html
 
