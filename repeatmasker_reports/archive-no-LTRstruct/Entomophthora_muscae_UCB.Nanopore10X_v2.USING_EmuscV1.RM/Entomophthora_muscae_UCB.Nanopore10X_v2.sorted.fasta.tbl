@@ -1,0 +1,60 @@
+==================================================
+file name: Entomophthora_muscae_UCB.Nanopore10X_v2.sorted.fasta
+sequences:          7810
+total length: 1031188800 bp  (1031188800 bp excl N/X-runs)
+GC level:         41.03 %
+bases masked:  934305183 bp ( 90.60 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       250816    458760395 bp   44.49 %
+   SINEs:              917        84543 bp    0.01 %
+   Penelope             13         1064 bp    0.00 %
+   LINEs:             1690      1879032 bp    0.18 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex          0            0 bp    0.00 %
+     R1/LOA/Jockey       0            0 bp    0.00 %
+     R2/R4/NeSL          0            0 bp    0.00 %
+     RTE/Bov-B           0            0 bp    0.00 %
+     L1/CIN4           515       552013 bp    0.05 %
+   LTR elements:    248209    456796820 bp   44.30 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia        6882      4195917 bp    0.41 %
+     Gypsy/DIRS1    228357    441463782 bp   42.81 %
+       Retroviral     7692      6971641 bp    0.68 %
+
+DNA transposons     138860    186779411 bp   18.11 %
+   hobo-Activator      352       349131 bp    0.03 %
+   Tc1-IS630-Pogo    93031    129302511 bp   12.54 %
+   En-Spm                0            0 bp    0.00 %
+   MuDR-IS905            0            0 bp    0.00 %
+   PiggyBac              0            0 bp    0.00 %
+   Tourist/Harbinger    15          757 bp    0.00 %
+   Other (Mirage,        0            0 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles        987      1113431 bp    0.11 %
+
+Unclassified:       498106    286777998 bp   27.81 %
+
+Total interspersed repeats:   932317804 bp   90.41 %
+
+
+Small RNA:            1388       146461 bp    0.01 %
+
+Satellites:             18         4831 bp    0.00 %
+Simple repeats:       9165       668817 bp    0.06 %
+Low complexity:       2575       138382 bp    0.01 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+  Runs of >=20 X/Ns in query were excluded in % calcs
+
+
+RepeatMasker version 4.1.1 , sensitive mode
+                                      
+run with rmblastn version 2.9.0+
+The query was compared to classified sequences in ".../Entomophthora_muscae_UCB.repeatmodeler-library.fasta"
+

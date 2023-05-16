@@ -1,0 +1,60 @@
+==================================================
+file name: Entomophaga_maimaiga_var_ARSEF_7190.v1.sorted.fasta
+sequences:            29
+total length: 1177390011 bp  (1177290011 bp excl N/X-runs)
+GC level:         38.75 %
+bases masked: 1057273314 bp ( 89.81 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       229169    545828680 bp   46.36 %
+   SINEs:              839       901174 bp    0.08 %
+   Penelope             21         1021 bp    0.00 %
+   LINEs:             7597     13831382 bp    1.17 %
+    CRE/SLACS          287       261298 bp    0.02 %
+     L2/CR1/Rex       1101       604131 bp    0.05 %
+     R1/LOA/Jockey       0            0 bp    0.00 %
+     R2/R4/NeSL          0            0 bp    0.00 %
+     RTE/Bov-B           0            0 bp    0.00 %
+     L1/CIN4          1400       516136 bp    0.04 %
+   LTR elements:    220733    531096124 bp   45.11 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia        4343      4623979 bp    0.39 %
+     Gypsy/DIRS1    210538    518360894 bp   44.03 %
+       Retroviral     1564       836903 bp    0.07 %
+
+DNA transposons     135199    265696897 bp   22.57 %
+   hobo-Activator     8135      5976988 bp    0.51 %
+   Tc1-IS630-Pogo    82622    191296002 bp   16.25 %
+   En-Spm                0            0 bp    0.00 %
+   MuDR-IS905            0            0 bp    0.00 %
+   PiggyBac            748       516069 bp    0.04 %
+   Tourist/Harbinger   298       232007 bp    0.02 %
+   Other (Mirage,        1           56 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles       1096      1049154 bp    0.09 %
+
+Unclassified:       469902    242724061 bp   20.62 %
+
+Total interspersed repeats:  1054249638 bp   89.55 %
+
+
+Small RNA:             291        75585 bp    0.01 %
+
+Satellites:            162        14461 bp    0.00 %
+Simple repeats:      23740      1496593 bp    0.13 %
+Low complexity:       7977       387883 bp    0.03 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+  Runs of >=20 X/Ns in query were excluded in % calcs
+
+
+RepeatMasker version 4.1.1 , sensitive mode
+                                      
+run with rmblastn version 2.9.0+
+The query was compared to classified sequences in ".../Entomophaga_maimaiga_var_ARSEF_7190.v1.repeatmodeler-library.fasta"
+

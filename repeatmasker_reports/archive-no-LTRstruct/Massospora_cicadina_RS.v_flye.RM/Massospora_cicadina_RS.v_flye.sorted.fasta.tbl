@@ -1,0 +1,60 @@
+==================================================
+file name: Massospora_cicadina_RS.v_flye.sorted.fasta
+sequences:         50753
+total length: 1414109371 bp  (1414107671 bp excl N/X-runs)
+GC level:         40.96 %
+bases masked: 1238087132 bp ( 87.55 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       509530    859202221 bp   60.76 %
+   SINEs:            10437      2465787 bp    0.17 %
+   Penelope             22         3472 bp    0.00 %
+   LINEs:            85003    153171189 bp   10.83 %
+    CRE/SLACS            5          250 bp    0.00 %
+     L2/CR1/Rex          0            0 bp    0.00 %
+     R1/LOA/Jockey       0            0 bp    0.00 %
+     R2/R4/NeSL        374        99086 bp    0.01 %
+     RTE/Bov-B           2           86 bp    0.00 %
+     L1/CIN4          9169      5442643 bp    0.38 %
+   LTR elements:    414090    703565245 bp   49.75 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia       13275      9356167 bp    0.66 %
+     Gypsy/DIRS1    385416    671297487 bp   47.47 %
+       Retroviral      260       193989 bp    0.01 %
+
+DNA transposons      16642      9039222 bp    0.64 %
+   hobo-Activator     1680       463239 bp    0.03 %
+   Tc1-IS630-Pogo     6281      5746754 bp    0.41 %
+   En-Spm                0            0 bp    0.00 %
+   MuDR-IS905            0            0 bp    0.00 %
+   PiggyBac            663       195910 bp    0.01 %
+   Tourist/Harbinger    17         1053 bp    0.00 %
+   Other (Mirage,      816       169280 bp    0.01 %
+    P-element, Transib)
+
+Rolling-circles      20173      7241247 bp    0.51 %
+
+Unclassified:       812552    360667420 bp   25.50 %
+
+Total interspersed repeats:  1228908863 bp   86.90 %
+
+
+Small RNA:             584       135950 bp    0.01 %
+
+Satellites:             32         7785 bp    0.00 %
+Simple repeats:      25425      1465220 bp    0.10 %
+Low complexity:       6017       328067 bp    0.02 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+  Runs of >=20 X/Ns in query were excluded in % calcs
+
+
+RepeatMasker version 4.1.1 , sensitive mode
+                                      
+run with rmblastn version 2.9.0+
+The query was compared to classified sequences in ".../Massospora_cicadina_RS.v_flye.repeatmodeler-library.fasta"
+
