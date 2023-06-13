@@ -1,0 +1,120 @@
+{
+    "format": "annotation",
+    "command": "/opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/funannotate-1.8/bin/funannotate predict --cpus 32 --keep_no_stops --SeqCenter UCR_Harvard --busco_db mucoromycota_odb10 --optimize_augustus --strain var ARSEF 7190 --min_training_models 100 --AUGUSTUS_CONFIG_PATH /bigdata/stajichlab/shared/projects/ZyGoLife/Entomophthora/E_muscae/Entomophthora_muscae_UCB/lib/augustus/3.3/config -i /bigdata/stajichlab/shared/projects/ZyGoLife/Entomophthora/E_muscae/Entomophthora_muscae_UCB/genomes/Entomophaga_maimaiga_var_ARSEF_7190.v1.masked.fasta --name EMAIM --protein_evidence /bigdata/stajichlab/shared/projects/ZyGoLife/Entomophthora/E_muscae/Entomophthora_muscae_UCB/lib/informant_proteins.aa -s Entomophaga maimaiga -o /bigdata/stajichlab/shared/projects/ZyGoLife/Entomophthora/E_muscae/Entomophthora_muscae_UCB/annotate/Entomophaga_maimaiga_var_ARSEF_7190.v1 --busco_seed_species entomophthora_muscae_ucb --tmpdir /scratch/jstajich/6100026",
+    "organism": "Entomophaga_maimaiga_var_ARSEF_7190",
+    "software": {
+        "name": "funannotate",
+        "version": "1.8.10",
+        "date": "2021-12-05",
+        "resources": {
+            "pfam": {
+                "type": "hmmer3",
+                "version": "35.0",
+                "date": "2021-11",
+                "num-records": "19632"
+            },
+            "gene2product": {
+                "type": "text",
+                "version": "1.72",
+                "date": "2021-10-18",
+                "num-records": "34111"
+            },
+            "interpro": {
+                "type": "xml",
+                "version": "87.0",
+                "date": "2021-09-30",
+                "num-records": "40037"
+            },
+            "dbCAN": {
+                "type": "hmmer3",
+                "version": "9.0",
+                "date": "2020-08-04",
+                "num-records": "641"
+            },
+            "busco_outgroups": {
+                "type": "outgroups",
+                "version": "1.0",
+                "date": "2021-11-25",
+                "num-records": "8"
+            },
+            "merops": {
+                "type": "diamond",
+                "version": "12.0",
+                "date": "2017-10-04",
+                "num-records": "5009"
+            },
+            "mibig": {
+                "type": "diamond",
+                "version": "1.4",
+                "date": "2020-11-29",
+                "num-records": "31023"
+            },
+            "uniprot": {
+                "type": "diamond",
+                "version": "2021_04",
+                "date": "2021-11-17",
+                "num-records": "565928"
+            },
+            "go": {
+                "type": "text",
+                "version": "2021-11-16",
+                "date": "2021-11-16",
+                "num-records": "47235"
+            },
+            "repeats": {
+                "type": "diamond",
+                "version": "1.0",
+                "date": "2020-11-29",
+                "num-records": "11950"
+            }
+        }
+    },
+    "assembly": {
+        "num_contigs": 29,
+        "length": 1177390011,
+        "mean_length": 40599655.55,
+        "N50": 37648373,
+        "L50": 9,
+        "N90": 24273175,
+        "L90": 24,
+        "GC_content": 38.75
+    },
+    "annotation": {
+        "genes": 24728,
+        "common_name": 0,
+        "mRNA": 23807,
+        "tRNA": 921,
+        "ncRNA": 0,
+        "rRNA": 0,
+        "avg_gene_length": 848.0,
+        "transcript-level": {
+            "CDS_transcripts": 23807,
+            "CDS_five_utr": 0,
+            "CDS_three_utr": 0,
+            "CDS_no_utr": 23807,
+            "CDS_five_three_utr": 0,
+            "CDS_complete": 20056,
+            "CDS_no-start": 2738,
+            "CDS_no-stop": 888,
+            "CDS_no-start_no-stop": 125,
+            "total_exons": 54521,
+            "total_cds_exons": 54521,
+            "multiple_exon_transcript": 10178,
+            "single_exon_transcript": 13629,
+            "avg_exon_length": 253.71,
+            "avg_protein_length": 252.97,
+            "functional": {
+                "go_terms": 0,
+                "interproscan": 0,
+                "eggnog": 0,
+                "pfam": 0,
+                "cazyme": 0,
+                "merops": 0,
+                "busco": 0,
+                "secretion": 0
+            },
+            "pct_exon_overlap_transcript_evidence": 33.38,
+            "pct_exon_overlap_protein_evidence": 2.32
+        }
+    }
+}
