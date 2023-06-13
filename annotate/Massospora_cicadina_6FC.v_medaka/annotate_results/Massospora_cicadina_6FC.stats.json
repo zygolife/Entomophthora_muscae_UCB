@@ -1,0 +1,119 @@
+{
+    "format": "annotation",
+    "command": "/opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/funannotate-1.8/bin/funannotate annotate --sbt /bigdata/stajichlab/shared/projects/ZyGoLife/Entomophthora/E_muscae/Entomophthora_muscae_UCB/lib/sbt/6FC.sbt --busco_db fungi_odb10 -i annotate/Massospora_cicadina_6FC.v_medaka --species Massospora_cicadina --strain 6FC --cpus 16",
+    "organism": "Massospora_cicadina_6FC",
+    "software": {
+        "name": "funannotate",
+        "version": "1.8.9",
+        "date": "2021-10-19",
+        "resources": {
+            "pfam": {
+                "type": "hmmer3",
+                "version": "34.0",
+                "date": "2021-03",
+                "num-records": "19179"
+            },
+            "gene2product": {
+                "type": "text",
+                "version": "1.72",
+                "date": "2021-10-18",
+                "num-records": "34111"
+            },
+            "interpro": {
+                "type": "xml",
+                "version": "85.0",
+                "date": "2021-04-08",
+                "num-records": "38633"
+            },
+            "dbCAN": {
+                "type": "hmmer3",
+                "version": "9.0",
+                "date": "2020-08-04",
+                "num-records": "641"
+            },
+            "busco_outgroups": {
+                "type": "outgroups",
+                "version": "1.0",
+                "date": "2021-06-14",
+                "num-records": "8"
+            },
+            "merops": {
+                "type": "diamond",
+                "version": "12.0",
+                "date": "2017-10-04",
+                "num-records": "5009"
+            },
+            "mibig": {
+                "type": "diamond",
+                "version": "1.4",
+                "date": "2020-11-29",
+                "num-records": "31023"
+            },
+            "uniprot": {
+                "type": "diamond",
+                "version": "2021_02",
+                "date": "2021-04-07",
+                "num-records": "564638"
+            },
+            "go": {
+                "type": "text",
+                "version": "2021-05-01",
+                "date": "2021-05-01",
+                "num-records": "47199"
+            },
+            "repeats": {
+                "type": "diamond",
+                "version": "1.0",
+                "date": "2020-11-29",
+                "num-records": "11950"
+            }
+        }
+    },
+    "assembly": {
+        "num_contigs": 27100,
+        "length": 1552148243,
+        "mean_length": 57274.84,
+        "N50": 136763,
+        "L50": 3250,
+        "N90": 29074,
+        "L90": 12540,
+        "GC_content": 41.2
+    },
+    "annotation": {
+        "genes": 22747,
+        "common_name": 2191,
+        "mRNA": 21763,
+        "tRNA": 984,
+        "ncRNA": 0,
+        "rRNA": 0,
+        "avg_gene_length": 1905.56,
+        "transcript-level": {
+            "CDS_transcripts": 21763,
+            "CDS_five_utr": 0,
+            "CDS_three_utr": 0,
+            "CDS_no_utr": 21763,
+            "CDS_five_three_utr": 0,
+            "CDS_complete": 19855,
+            "CDS_no-start": 755,
+            "CDS_no-stop": 992,
+            "CDS_no-start_no-stop": 161,
+            "total_exons": 93026,
+            "total_cds_exons": 93026,
+            "multiple_exon_transcript": 17618,
+            "single_exon_transcript": 4145,
+            "avg_exon_length": 362.58,
+            "avg_protein_length": 549.05,
+            "functional": {
+                "go_terms": 15260,
+                "interproscan": 19157,
+                "eggnog": 20291,
+                "pfam": 16582,
+                "cazyme": 504,
+                "merops": 1165,
+                "busco": 366,
+                "secretion": 1855
+            },
+            "pct_exon_overlap_protein_evidence": 4.71
+        }
+    }
+}
