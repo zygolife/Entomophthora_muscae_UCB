@@ -1,0 +1,59 @@
+{
+    "format": "annotation",
+    "command": "",
+    "organism": "",
+    "software": {
+        "name": "funannotate",
+        "version": "1.8.10",
+        "date": "2021-11-26",
+        "resources": {}
+    },
+    "assembly": {
+        "num_contigs": 8662,
+        "length": 655199646,
+        "mean_length": 75640.69,
+        "N50": 544305,
+        "L50": 307,
+        "N90": 45761,
+        "L90": 1902,
+        "GC_content": 31.87
+    },
+    "annotation": {
+        "genes": 18761,
+        "common_name": 0,
+        "mRNA": 19076,
+        "tRNA": 1238,
+        "ncRNA": 0,
+        "rRNA": 0,
+        "avg_gene_length": 1293.61,
+        "transcript-level": {
+            "CDS_transcripts": 19076,
+            "CDS_five_utr": 0,
+            "CDS_three_utr": 653,
+            "CDS_no_utr": 9277,
+            "CDS_five_three_utr": 9146,
+            "CDS_complete": 18740,
+            "CDS_no-start": 187,
+            "CDS_no-stop": 126,
+            "CDS_no-start_no-stop": 23,
+            "total_exons": 86154,
+            "total_cds_exons": 61027,
+            "multiple_exon_transcript": 11468,
+            "single_exon_transcript": 7608,
+            "avg_exon_length": 307.66,
+            "avg_protein_length": 334.74,
+            "functional": {
+                "go_terms": 0,
+                "interproscan": 0,
+                "eggnog": 0,
+                "pfam": 0,
+                "cazyme": 0,
+                "merops": 0,
+                "busco": 0,
+                "secretion": 0
+            },
+            "pct_exon_overlap_protein_evidence": 73.78,
+            "pct_exon_overlap_transcript_evidence": 43.81
+        }
+    }
+}
