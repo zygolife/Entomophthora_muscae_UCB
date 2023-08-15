@@ -1,9 +1,6 @@
 #!/bin/bash
-#SBATCH -p intel,batch --time 3-0:00:00 --ntasks 24 --nodes 1 --mem 96G --out logs/predict.%a.log
+#SBATCH -p batch --time 3-0:00:00 --ntasks 24 --nodes 1 --mem 96G --out logs/predict.%a.log
 
-module unload miniconda2 miniconda3 anaconda3
-module unload perl
-module unload python
 module load funannotate
 module load workspace/scratch
 #conda deactivate

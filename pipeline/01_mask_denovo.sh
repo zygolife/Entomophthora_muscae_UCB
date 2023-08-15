@@ -1,5 +1,5 @@
-#!/bin/bash
-#SBATCH -p intel,batch --time 2-0:00:00 --ntasks 8 --nodes 1 --mem 24G --out logs/mask.%a.log
+#!/bin/bash -l
+#SBATCH -p batch --time 2-0:00:00 --ntasks 8 --nodes 1 --mem 24G --out logs/mask.%a.log
 
 CPU=1
 if [ $SLURM_CPUS_ON_NODE ]; then
