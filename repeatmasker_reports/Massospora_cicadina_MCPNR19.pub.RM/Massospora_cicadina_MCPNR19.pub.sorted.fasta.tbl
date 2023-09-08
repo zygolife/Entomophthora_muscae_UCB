@@ -1,0 +1,60 @@
+==================================================
+file name: Massospora_cicadina_MCPNR19.pub.sorted.fasta
+sequences:         19694
+total length: 1488883982 bp  (1488883982 bp excl N/X-runs)
+GC level:         41.13 %
+bases masked: 1375444973 bp ( 92.38 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       662413   1056344119 bp   70.95 %
+   SINEs:                0            0 bp    0.00 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:            46163     93265636 bp    6.26 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex          0            0 bp    0.00 %
+     R1/LOA/Jockey       0            0 bp    0.00 %
+     R2/R4/NeSL          0            0 bp    0.00 %
+     RTE/Bov-B           0            0 bp    0.00 %
+     L1/CIN4         10209     13192275 bp    0.89 %
+   LTR elements:    616250    963078483 bp   64.68 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia         831       376653 bp    0.03 %
+     Gypsy/DIRS1    441948    845834534 bp   56.81 %
+       Retroviral      525       243884 bp    0.02 %
+
+DNA transposons       4127      1709207 bp    0.11 %
+   hobo-Activator      124       124871 bp    0.01 %
+   Tc1-IS630-Pogo     2019       729931 bp    0.05 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR             0            0 bp    0.00 %
+   PiggyBac            862       182865 bp    0.01 %
+   Tourist/Harbinger     0            0 bp    0.00 %
+   Other (Mirage,        0            0 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles       4244      3620387 bp    0.24 %
+
+Unclassified:       667987    312443718 bp   20.99 %
+
+Total interspersed repeats:  1370497044 bp   92.05 %
+
+
+Small RNA:               0            0 bp    0.00 %
+
+Satellites:              0            0 bp    0.00 %
+Simple repeats:      19547      1114225 bp    0.07 %
+Low complexity:       4200       213317 bp    0.01 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+  Runs of >=20 X/Ns in query were excluded in % calcs
+
+
+RepeatMasker version 4.1.5 , sensitive mode
+                                      
+run with rmblastn version 2.14.0+
+The query was compared to classified sequences in ".../Massospora_cicadina_6FC.v_medaka.repeatmodeler-library.fasta"
+FamDB: 
