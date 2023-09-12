@@ -1,85 +1,24 @@
-# funannotate_template
-Project template for doing a funannotate annotation set.
+Entomophthora muscae strain UCB genome assembly, annotation, genome completeness, and transposon content
+==
 
-To use this do not clone it directly, but instead use the 'use this template' to create your own repository from this repo.
+Assembly
+====
+Primary [nanopore data](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRP363781) was generated at the [Harvard Bauer Core facility](https://bauercore.fas.harvard.edu/) and initially assembly by C. Elya and then later scaffolded with [10X data](https://ncbi.nlm.nih.gov/sra/SRR18312935).
 
-# Repeat Masking
+Repeat Masking was run in the [RM_Run](/RM_run) folder which provides an archive of the repeat modeler results. Archives of the produced repeat libraries and reports are also provided in the (repeatmasker_plots)[/repeatmasker_plots] and (repeatmasker_reports)[repeatmasker_reports] folders.
 
-```bash
-sbatch -a 1-2 01_mask_denovo.sh
-```
+Annotation
+====
+Archive of genome repeat masking and genome annotation process with Funannotate for _Entomopthora muscae_ genome and comparisons among related species. The annotation folder contains pipeline folder for slurm job running on the [UCR HPCC](https://hpcc.ucr.edu). 
 
-# Optional steps - with RNASeq
+The approach uses public RNASeq data for transcript production and training gene predictors. Note that the public RNASeq are from different isolate which may be a cryptic species.
 
-If you are utilizing RNASeq for training and improvement of gene models you can take advantage of the extra speed up that running PASA with a mysql server (instead of the default, SQLite).  To do that on HPCC this requires seting up a mysql server using singularity package.
+This workflow includies re-annotating public genomes in order to test hypotheses that gene content differences are due to real biological differences and not simply annotation pipeline differences.
 
-## Setup mysql/mariadb for your account
+Citation
+====
+This annotation and repeat data is used in the [Emuscae_Comparative](https://github.com/zygolife/Emuscae_Comparative) repository which is tightly linked to this one for the associated manuscript.
 
-## Configure mysql/mariadb
+Jason E Stajich, Brian Lovett, Emily Lee, Angie M. Macias, Ann E Hajek, Benjamin L de Bivort, Matt T. Kasson, Henrik H. De Fine Licht, Carolyn Elya. Signatures of transposon-mediated genome inflation, host specialization, and photoentrainment in Entomophthora muscae and allied entomophthoralean fungi. _Submitted_.
 
-You need to create a file `$HOME/pasa.CONFIG.template` this will be customized for your user account. Copy it from the system installed PASA folder.
-A current version on the system is located in `/opt/linux/centos/7.x/x86_64/pkgs/PASA/2.3.3/pasa_conf/pasa.CONFIG.template`.
-Doing `rsync /opt/linux/centos/7.x/x86_64/pkgs/PASA/2.4.1/pasa_conf/pasa.CONFIG.template ~/`
-This can also be done automatically with the latest version of PASA on the system
-```bash
-module load PASA/2.4.1
-FOLDER=$(dirname `which pasa`)
-rsync -v $FOLDER/../pasa_conf/pasa.CONFIG.template
-```
-
-You will need to edit this file which has this at the top. The MYSLQSERVER part will get updated by the mysql setup step later so leave  it alone.
-You will need to fill in the content for `MYSQL_RW_USER` and `MYSQL_RW_PASSWORD` too.
-
-```
-# server actively running MySQL
-# MYSQLSERVER=server.com
-MYSQLSERVER=localhost
-# Pass socket connections through Perl DBI syntax e.g. MYSQLSERVER=mysql_socket=/tmp/mysql.sock
-
-# read-write username and password
-MYSQL_RW_USER=xxxxxx
-MYSQL_RW_PASSWORD=xxxxxx
-```
-
-On the UCR HPCC [here are directions](https://github.com/ucr-hpcc/hpcc_slurm_examples/tree/master/singularity/mariadb) on how to setup your own mysql instance in your account using [singularity](https://sylabs.io/docs/). If you were running funannotate on your own linux/mac setup you would just do a native mysql/mariadb install and have the server running on your local machine. 
-
-The HPCC instructions include the steps to initialize a database followed by you will start a job that will be running which has the mysql instance. This db server will need to be started before you start annotating and be shutdown when you are finished. I often give it a long life like 2 weeks but it can be stopped at any point too.
-
-## Run Training
-
-sbatch 02_train_RNASeq.sh
-
-# Gene Prediction
-
-## Input needs
-
-Informant proteins and transcripts. Funannotate will use the uniprot_swissprot database by default (installed in `$FUNANNOTATE_DB`).
-
-```bash
-sbatch -a 1-2 03_predict.sh
-```
-
-# Extra Annotation
-
-## AntiSMASH
-
-```bash
-sbatch -a 1-2 04a_antismash_local.sh
-```
-## InterProScan
-
-```bash
-sbatch -a 1-3 04b_iprscan.sh
-```
-
-# Optional - update
-
-If you have RNAseq you can do an update. For this workflow this would be already aligned reads and PASA database created in the training step. So the input to this is only the previously run training data and the input folder for annotation.
-
-If you are doing an update on an already annotated genome obtained from genbank you will want to provide forward and reverse reads (`--left` and `--right`).
-
-# Functional annotation
-
-```bash
-sbatch -a 1-3 06_annotate_function.sh
-```
+Curated by Jason Stajich - jason.stajich[AT]ucr.edu @hyphaltip [Lab Site](https://lab.stajich.org)
